@@ -36,19 +36,17 @@ export default function LandingPage() {
               ["Vanilla JS", "#ebdb34"],
               ["HTML Drag & Drop API", "#eb7f13"],
             ]}
-            link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+            link={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
           />
           <ProjectCard
             name="Members Only"
-            imagePath="./MembersOnly-Photos/chat.png"
             description="A server based app, with authentication."
             techUsed={[
               ["Express JS", "#04d10e"],
               ["Passport JS", "#66c7ff"],
               ["PostgreSQL", "#1b7eae"],
             ]}
-            imageAlt="Image alt"
-            link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+            link={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
           />
         </div>
       </div>

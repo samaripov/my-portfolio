@@ -2,14 +2,14 @@
   display: block;
   background: white;
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 0.5rem;
   width: 23rem;
-  box-shadow: 5px 5px 20px rgb(94, 94, 94);
+  box-shadow: 5px 5px 10px rgb(188, 188, 188);
   transition: transform 0.3s ease-in-out;
 }
 .container:hover {
   cursor: pointer;
-  transform: scale(103%);
+  transform: scale(102%);
 }
 
 .view {
