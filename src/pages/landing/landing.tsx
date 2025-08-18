@@ -1,6 +1,6 @@
-import { useState } from "react";
 import landingStyles from "./landing.module.css";
 import ProjectCard from "../../components/projectCard/projectCard";
+import Footer from "../../components/footer/Footer";
 
 export default function LandingPage() {
   return (
@@ -8,6 +8,9 @@ export default function LandingPage() {
       <div className={landingStyles.container}>
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
+            <div className={landingStyles.greeting}>
+              <p>Hi! How are you?</p>
+            </div>
             <img src="./pixels.jpg" alt="" />
           </div>
           <div className={landingStyles.whiteBox}>
@@ -52,6 +55,7 @@ export default function LandingPage() {
           />
         </div>
       </div>
+      <Footer color="#1b7eef" />
     </div>
   );
 }

@@ -1,33 +1,56 @@
 .imageContainer {
-  background-image: url("./pexels-abby-chung-371167-1191377.jpg");
+  background-image: url("./pexels-axp-photography-500641970-19439186.jpg");
   background-size: cover;
 }
 .container {
   display: flex;
-  padding-block-start: 7rem;
+  padding-block-start: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(transparent, #ffffff5a, #ffffffcd, #ffffff);
+  background: linear-gradient(
+    transparent,
+    #ffffff5a,
+    #ffffffcd,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  );
+}
+.container img {
+  align-self: end;
+  justify-self: end;
 }
 .horizontalFlex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.container img {
-  align-self: end;
-  justify-self: end;
-}
 .avatar {
-  margin: 0.5rem;
+  display: flex;
+  margin: 1rem;
   background-size: cover;
   background: rgba(248, 248, 248, 0.575);
   padding: 0.5rem;
   border-radius: 10rem;
   box-shadow: 5px 5px 20px rgb(215, 215, 215);
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.greeting {
+  background: white;
+  padding-inline: 0.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  position: absolute;
+  transition: all 0.3s ease-in;
+  transform: translateX(7rem);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar:hover .greeting {
+  opacity: 1;
 }
 
 .avatar:hover {
