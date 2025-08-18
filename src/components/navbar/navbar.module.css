@@ -22,7 +22,6 @@
   transition: all 0.35s ease-in-out;
 }
 .button {
-  z-index: 1;
   color: black;
   min-width: 8rem;
   white-space: nowrap;
@@ -40,11 +39,9 @@
 .blog {
   background: #e40066;
 }
-.about_me {
-  background: #03cea4;
-}
 
 .active {
+  z-index: 1;
   color: white;
   font-weight: bold;
   border-radius: 2rem;
