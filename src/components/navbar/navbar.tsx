@@ -29,12 +29,6 @@ export default function Navbar() {
           transform: "translate(18rem)",
         });
         break;
-      case "/about_me":
-        setSelectStyles({
-          background: "#03cea4",
-          transform: "translate(27rem)",
-        });
-        break;
     }
   }, [currentPath]);
   return (
@@ -64,14 +58,6 @@ export default function Navbar() {
         to="/blog"
       >
         Blog
-      </Link>
-      <Link
-        className={`${currentPath === "/about_me" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
-          navbarStyle.button
-        }`}
-        to="/about_me"
-      >
-        About me
       </Link>
       <div
         id="select"
