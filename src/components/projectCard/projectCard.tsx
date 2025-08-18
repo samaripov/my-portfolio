@@ -21,8 +21,8 @@ export default function ProjectCard({
             <p></p>
             <h1>{`${name} > View Repo`}</h1>
           </div>
-          <p>{description}</p>
           <div className={cardStyles.horizontalContainer}>{categories}</div>
+          <p>{description}</p>
         </div>
       </a>
     </div>

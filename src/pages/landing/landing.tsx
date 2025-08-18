@@ -20,12 +20,12 @@ export default function LandingPage() {
         <ProjectCard
           name="Fake Store"
           imagePath="./FakeStore-Photos/store-catalog.png"
-          description="A great project yaman!"
+          description="WebApp that pulls product information from an API. Present all products with professional design."
           techUsed={[
             ["React.js", "#1b7eef"],
             ["React Routers", "#f5425a"],
             ["JavaScript", "#ebdb34"],
-            ["Context API", "#1b7eef"]
+            ["Context API", "#1b7eae"]
           ]}
           imageAlt="Image alt"
           link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
