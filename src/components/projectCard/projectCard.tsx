@@ -1,4 +1,6 @@
+import TechCategory from "../techCategory/TechCategory";
 import cardStyles from "./projectCard.module.css";
+
 export default function ProjectCard({
   name,
   imagePath,
@@ -7,6 +9,9 @@ export default function ProjectCard({
   link,
   techUsed,
 }) {
+  const categories = techUsed.map(([name, color]) => (
+    <TechCategory name={name} color={color} key={name} />
+  ));
   return (
     <div className={cardStyles.container}>
       <a href={link} target="_blank">
@@ -17,7 +22,7 @@ export default function ProjectCard({
             <h1>{`${name} > View Repo`}</h1>
           </div>
           <p>{description}</p>
-          <p>{techUsed}</p>
+          <div className={cardStyles.horizontalContainer}>{categories}</div>
         </div>
       </a>
     </div>

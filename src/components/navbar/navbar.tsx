@@ -14,6 +14,7 @@ export default function Navbar() {
       case "/":
         setSelectStyles({
           background: "#1b7eef",
+          transform: "translate(0rem)",
         });
         break;
       case "/projects":

@@ -19,9 +19,14 @@ export default function LandingPage() {
         </div>
         <ProjectCard
           name="Fake Store"
-          imagePath="./pexels-matthew-montrone-230847-1374295.jpg"
+          imagePath="./FakeStore-Photos/store-catalog.png"
           description="A great project yaman!"
-          techUsed={["react.js", "react-routers"]}
+          techUsed={[
+            ["React.js", "#1b7eef"],
+            ["React Routers", "#f5425a"],
+            ["JavaScript", "#ebdb34"],
+            ["Context API", "#1b7eef"]
+          ]}
           imageAlt="Image alt"
           link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
         />
