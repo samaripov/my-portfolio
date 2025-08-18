@@ -39,7 +39,7 @@
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
-  width: 36rem;
+  width: 1fr;
   box-shadow: 5px 5px 20px rgb(94, 94, 94);
 }
 
@@ -62,5 +62,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  gap: 1rem;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 }

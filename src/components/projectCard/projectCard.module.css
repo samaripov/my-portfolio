@@ -3,7 +3,9 @@
   background: white;
   border-radius: 1rem;
   margin: 0.5rem;
-  width: 23rem;
+  height: min-content;
+  width: 2fr;
+  min-width: 100%;
   box-shadow: 5px 5px 10px rgb(188, 188, 188);
   transition: transform 0.3s ease-in-out;
 }
@@ -19,15 +21,6 @@
 
 .container:hover .view {
   width: 7rem;
-}
-
-.container img {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  min-height: 14rem;
-  min-width: 23rem;
-  object-fit: cover;
-  box-shadow: 0px 5px 20px rgb(235, 235, 235);
 }
 .content {
   padding: 1rem;
