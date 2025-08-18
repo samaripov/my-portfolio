@@ -21,7 +21,7 @@
   justify-self: end;
 }
 .avatar {
-  margin-block-start: 0.5rem;
+  margin: 0.5rem;
   background-size: cover;
   background: rgba(248, 248, 248, 0.575);
   padding: 0.5rem;
