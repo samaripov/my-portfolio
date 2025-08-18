@@ -20,13 +20,13 @@ export default function Navbar() {
       case "/projects":
         setSelectStyles({
           background: "#eac435",
-          transform: "translate(9rem)",
+          transform: "translate(8.5rem)",
         });
         break;
       case "/blog":
         setSelectStyles({
           background: "#e40066",
-          transform: "translate(18rem)",
+          transform: "translate(17rem)",
         });
         break;
     }
