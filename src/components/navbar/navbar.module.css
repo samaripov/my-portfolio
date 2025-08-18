@@ -1,0 +1,50 @@
+.container {
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  background: white;
+  border-radius: 10rem;
+  display: flex;
+  width: fit-content;
+  box-shadow: 5px 5px 10px rgb(221, 221, 221);
+}
+.select {
+  position: absolute;
+  color: transparent;
+  z-index: 0;
+  align-self: center;
+  min-width: 8rem;
+  border-radius: 10rem;
+  padding-inline: 0.5rem;
+  margin: 0.5rem;
+  font-size: x-large;
+  height: 2.5rem;
+  transition: all 0.35s ease-in-out;
+}
+.button {
+  z-index: 1;
+  color: black;
+  min-width: 8rem;
+  text-align: center;
+  font-size: x-large;
+  padding-inline: 0.5rem;
+  margin: 0.5rem;
+  transition: all 0.2s ease-in;
+}
+.home {
+  background: #1b7eef;
+}
+.projects {
+  background: #eac435;
+}
+.blog {
+  background: #e40066;
+}
+.about_me {
+  background: #03cea4;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+}
