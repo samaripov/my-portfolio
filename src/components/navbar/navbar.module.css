@@ -48,3 +48,19 @@
   font-weight: bold;
   border-radius: 2rem;
 }
+
+.animate_select {
+  animation: stretch_select 0.35s ease-in-out;
+}
+
+@keyframes stretch_select {
+  0% {
+    min-width: 8rem;
+  }
+  50% {
+    min-width: 8.5rem;
+  }
+  100% {
+    min-width: 8rem;
+  }
+}

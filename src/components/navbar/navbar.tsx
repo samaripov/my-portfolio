@@ -38,21 +38,36 @@ export default function Navbar() {
   }, [currentPath]);
   return (
     <div className={navbarStyle.container}>
-      <Link className={`${currentPath === "/" && navbarStyle.active} ${navbarStyle.button}`} to="/">
+      <Link
+        className={`${
+          currentPath === "/" &&
+          `${navbarStyle.active} ${navbarStyle.animate_select}`
+        } ${navbarStyle.button}`}
+        to="/"
+      >
         Home
       </Link>
       <Link
         id="projects_link"
-        className={`${currentPath === "/projects" && navbarStyle.active} ${navbarStyle.button}`}
+        className={`${currentPath === "/projects" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
+          navbarStyle.button
+        }`}
         to="/projects"
       >
         Projects
       </Link>
-      <Link className={`${currentPath === "/blog" && navbarStyle.active} ${navbarStyle.button}`} to="/blog">
+      <Link
+        className={`${currentPath === "/blog" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
+          navbarStyle.button
+        }`}
+        to="/blog"
+      >
         Blog
       </Link>
       <Link
-        className={`${currentPath === "/about_me" && navbarStyle.active} ${navbarStyle.button}`}
+        className={`${currentPath === "/about_me" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
+          navbarStyle.button
+        }`}
         to="/about_me"
       >
         About me
