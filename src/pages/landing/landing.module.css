@@ -40,15 +40,12 @@
   margin: 1rem;
   padding: 1rem;
   width: 36rem;
-  box-shadow: 5px 5px 20px rgb(215, 215, 215);
+  box-shadow: 5px 5px 20px rgb(94, 94, 94);
 }
 
 .title {
   display: flex;
   transition: margin-left 0.2s ease;
-}
-.title:hover {
-  margin-left: 0.2rem;
 }
 .title p {
   background: rgb(0, 128, 255);

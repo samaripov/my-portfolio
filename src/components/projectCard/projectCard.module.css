@@ -1,0 +1,56 @@
+.container {
+  display: block;
+  background: white;
+  border-radius: 1rem;
+  margin: 1rem;
+  width: min-content;
+  box-shadow: 5px 5px 20px rgb(94, 94, 94);
+  transition: transform 0.3s ease-in-out;
+}
+.container:hover {
+  cursor: pointer;
+  transform: scale(103%);
+}
+
+.container:hover .content h1 {
+  width: 20rem;
+}
+
+.container img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  max-height: 16rem;
+  min-width: 23rem;
+  object-fit: cover;
+}
+.content {
+  padding: 1rem;
+}
+.content h1 {
+  transition: width 0.3s ease-in-out;
+  font-size: x-large;
+  width: 6.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.content hr {
+  height: 1px;
+  color: rgb(181, 181, 181);
+}
+
+.title {
+  display: flex;
+}
+.title p {
+  background: rgb(0, 128, 255);
+  max-height: 3rem;
+  min-width: 0.2rem;
+  border-radius: 1rem;
+  margin-right: 0.3rem;
+}
+.title h1 {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(0, 128, 255);
+}

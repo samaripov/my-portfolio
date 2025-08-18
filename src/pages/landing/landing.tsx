@@ -1,5 +1,6 @@
 import { useState } from "react";
 import landingStyles from "./landing.module.css";
+import ProjectCard from "../../components/projectCard/projectCard";
 
 export default function LandingPage() {
   return (
@@ -16,8 +17,14 @@ export default function LandingPage() {
           <p>The Ohio State University Alumni</p>
           <p>Bachelor's in Computer Science & Engineering</p>
         </div>
-        
-        
+        <ProjectCard
+          name="Fake Store"
+          imagePath="./pexels-matthew-montrone-230847-1374295.jpg"
+          description="A great project yaman!"
+          techUsed={["react.js", "react-routers"]}
+          imageAlt="Image alt"
+          link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+        />
       </div>
     </div>
   );
