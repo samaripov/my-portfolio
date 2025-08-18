@@ -12,8 +12,13 @@
   transform: scale(103%);
 }
 
-.container:hover .content h1 {
-  width: 20rem;
+.view {
+  transition: width 0.3s ease-in-out;
+  width: 0rem;
+}
+
+.container:hover .view {
+  width: 7rem;
 }
 
 .container img {
@@ -28,9 +33,7 @@
   padding: 1rem;
 }
 .content h1 {
-  transition: width 0.3s ease-in-out;
   font-size: x-large;
-  width: 6.3rem;
   overflow: hidden;
   white-space: nowrap;
   font-weight: bold;

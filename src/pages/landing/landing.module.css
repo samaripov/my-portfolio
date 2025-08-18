@@ -32,7 +32,7 @@
   width: 10rem;
   border-radius: 10rem;
 }
- 
+
 .whiteBox {
   display: block;
   background: white;
@@ -58,4 +58,9 @@
   font-size: larger;
   font-weight: bold;
   color: #1b7eef;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
