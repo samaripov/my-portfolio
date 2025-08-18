@@ -10,12 +10,18 @@
   align-items: center;
   background: linear-gradient(transparent, #ffffff5a, #ffffffcd, #ffffff);
 }
+.horizontalFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .container img {
   align-self: end;
   justify-self: end;
 }
 .avatar {
+  margin-block-start: 0.5rem;
   background-size: cover;
   background: rgba(248, 248, 248, 0.575);
   padding: 0.5rem;
@@ -62,8 +68,8 @@
 
 .grid {
   display: grid;
-  width: 90%;
   gap: 1rem;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  margin-inline: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 }

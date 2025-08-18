@@ -2,7 +2,7 @@
   display: block;
   background: white;
   border-radius: 1rem;
-  margin: 0.5rem;
+  margin-inline: 1rem;
   height: min-content;
   width: 2fr;
   min-width: 100%;
