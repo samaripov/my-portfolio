@@ -58,32 +58,18 @@ export default function LandingPage() {
             projectLink={"https://aripov-fake-store.netlify.app/"}
           />
           <ProjectCard
-            name="Memory Game"
-            description="React application that pulls images of Pokémon from an API. A game that made with React useEffect and useState."
+            name="Reponsive Homepage"
+            description="Responsive portfolio mock-up. Changes the layout based on the screen size."
             techUsed={[
-              ["React.js", "#1b7eef"],
-              ["JavaScript", "#ebdb34"],
               ["CSS", "#ab06cc"],
+              ["JavaScript", "#ebdb34"],
             ]}
             repoLink={
-              "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
+              "https://github.com/samaripov/Project-Homepage?tab=readme-ov-file"
             }
-            imageSource={"./PokemonMemory-Photos/game.png"}
-            imageAlt={"An image of a Pokémon card memory game!"}
-            projectLink={"https://ari-pokemon-memory.netlify.app/"}
-          />
-          <ProjectCard
-            name="Battleship"
-            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
-            techUsed={[
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-              ["HTML Drag & Drop API", "#eb7f13"],
-            ]}
-            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
-            imageSource={"./Battleship-Photos/ingame.png"}
-            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
-            projectLink={"https://samaripov.github.io/Project-Battleship/"}
+            imageSource={"./ResponsiveCSS-Photos/intro.png"}
+            imageAlt={"Image of a placeholder introduction page."}
+            projectLink={"https://samaripov.github.io/Project-Homepage/"}
           />
           <ProjectCard
             name="Members Only"
@@ -101,16 +87,49 @@ export default function LandingPage() {
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
           />
           <ProjectCard
-            name="Reponsive Homepage"
-            description="Responsive portfolio mock-up. Changes the layout based on the screen size."
+            name="Memory Game"
+            description="React application that pulls images of Pokémon from an API. A game that made with React useEffect and useState."
             techUsed={[
-              ["CSS", "#ab06cc"],
+              ["React.js", "#1b7eef"],
               ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+            ]}
+            repoLink={
+              "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
+            }
+            imageSource={"./PokemonMemory-Photos/game.png"}
+            imageAlt={
+              "An image of a Pokémon card memory game! made by Sam Aripov"
+            }
+            projectLink={"https://ari-pokemon-memory.netlify.app/"}
+          />
+          <ProjectCard
+            name="Battleship"
+            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
+            techUsed={[
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+              ["HTML Drag & Drop API", "#eb7f13"],
             ]}
             repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
-            imageSource={"./ResponsiveCSS-Photos/intro.png"}
-            imageAlt={"Image of a placeholder introduction page."}
-            projectLink={"https://samaripov.github.io/Project-Homepage/"}
+            imageSource={"./Battleship-Photos/ingame.png"}
+            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
+            projectLink={"https://samaripov.github.io/Project-Battleship/"}
+          />
+          <ProjectCard
+            name="React CV Forms"
+            description="React project that uses many different types of forms. Provides snappy UI for form fill-out."
+            techUsed={[
+              ["React.js", "#1b7eef"],
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+            ]}
+            repoLink={
+              "https://github.com/samaripov/Project-CV-Application?tab=readme-ov-file"
+            }
+            imageSource={"./CVForm-Photos/form.png"}
+            imageAlt={"Image of a form for a CV application."}
+            projectLink={"https://aripov-cv-app.netlify.app/"}
           />
         </div>
 
