@@ -5,6 +5,7 @@
   height: min-content;
   width: 2fr;
   min-width: min-content;
+  min-height: 29rem;
   box-shadow: 5px 5px 10px rgb(188, 188, 188);
   transition: transform 0.3s ease-in-out;
 }
@@ -49,7 +50,7 @@
 }
 
 .content:hover .view {
-  width: 8.4rem;
+  width: 7rem;
 }
 .content {
   padding: 1rem;
@@ -71,6 +72,7 @@
 
 .title {
   display: flex;
+  align-items: center;
 }
 .title p {
   background: #1b7eef;
@@ -82,7 +84,7 @@
   margin-right: 0.3rem;
 }
 .title h1 {
-  font-size: x-large;
+  font-size: larger;
   font-weight: bold;
   color: #1b7eef;
 }
