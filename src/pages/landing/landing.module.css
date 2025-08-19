@@ -87,17 +87,18 @@
 }
 .title p {
   align-self: center;
-  background: #1b7eef;
+  background: #6fb7eb;
   min-height: 1rem;
   min-width: 0.3rem;
   border-radius: 1rem;
   margin-right: 0.2rem;
+  transform: rotate(20deg);
 }
 
 .title h1 {
   font-size: larger;
   font-weight: bold;
-  color: #1b7eef;
+  color: hsl(153, 51%, 56%);
 }
 
 .grid {

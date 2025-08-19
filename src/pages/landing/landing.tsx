@@ -21,7 +21,7 @@ export default function LandingPage() {
               <h1>Sam Aripov</h1>
             </div>
             <p>Alumni of The Ohio State University</p>
-            <p>Bachelor's in Computer Science & Engineering</p>
+            <p>Bachelor of Computer Science & Engineering</p>
           </div>
         </div>
         <div className={landingStyles.whiteBox}>
@@ -33,7 +33,7 @@ export default function LandingPage() {
           </div>
           <p>
             These are not tutorial projects. All code was written by me. The
-            projects' scope and requirements only were defined on the{" "}
+            projects' scope and requirements <strong>only</strong> were defined on the{" "}
             <a href="https://www.theodinproject.com" target="_blank">
               The Odin Project
             </a>{" "}
@@ -57,8 +57,21 @@ export default function LandingPage() {
             projectLink={"https://aripov-fake-store.netlify.app/"}
           />
           <ProjectCard
+            name="Battleship"
+            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
+            techUsed={[
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+              ["HTML Drag & Drop API", "#eb7f13"],
+            ]}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
+            imageSource={"./Battleship-Photos/ingame.png"}
+            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
+            projectLink={"https://samaripov.github.io/Project-Battleship/"}
+          />
+          <ProjectCard
             name="Members Only"
-            description="A server based app, with authentication."
+            description="A server based app, with authentication. Utilizes server side rendering with Embedded JavaScript."
             techUsed={[
               ["Express JS", "#04d10e"],
               ["Passport JS", "#66c7ff"],
@@ -71,21 +84,8 @@ export default function LandingPage() {
             imageSource={"./MembersOnly-Photos/chat.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
           />
-          <ProjectCard
-            name="Battleship"
-            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML. Developed using a TDD methodology."
-            techUsed={[
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-              ["HTML Drag & Drop API", "#eb7f13"],
-            ]}
-            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
-            imageSource={"./Battleship-Photos/ingame.png"}
-            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
-            projectLink={"https://samaripov.github.io/Project-Battleship/"}
-          />
         </div>
-            
+
         <Footer color="#1b7eef" />
       </div>
     </div>
