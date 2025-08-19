@@ -1,6 +1,6 @@
 .imageContainer {
   background-image: url("./pexels-abby-chung-371167-1191377.jpg");
-  background-size: cover;
+  background-size:contain;
 }
 .container {
   display: flex;
@@ -11,7 +11,7 @@
   background: linear-gradient(
     transparent,
     #ffffff5a,
-    #ffffffcd,
+    #ffffffc5,
     #ffffff,
     #ffffff
   );

@@ -132,7 +132,23 @@ export default function LandingPage() {
             projectLink={"https://aripov-cv-app.netlify.app/"}
           />
         </div>
-
+        <div className={landingStyles.whiteBox}>
+          <div className={landingStyles.title}>
+            <p></p>
+            <p></p>
+            <p></p>
+            <h1>The Odin Project's</h1>
+          </div>
+          <p>
+            These are not tutorial projects. All code was written by me. The
+            projects' scope and requirements <strong>only</strong> were defined
+            on the{" "}
+            <a href="https://www.theodinproject.com" target="_blank">
+              The Odin Project
+            </a>{" "}
+            website.
+          </p>
+        </div>
         <Footer color="#1b7eef" />
       </div>
     </div>
