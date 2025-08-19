@@ -17,7 +17,7 @@ export default function Navbar() {
           transform: "translate(0rem)",
         });
         break;
-      case "/projects":
+      case "/glossary":
         setSelectStyles({
           background: "#e40066",
           transform: "translate(8.5rem)",
@@ -44,12 +44,12 @@ export default function Navbar() {
       </Link>
       <Link
         id="projects_link"
-        className={`${currentPath === "/projects" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
+        className={`${currentPath === "/glossary" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
           navbarStyle.button
         }`}
-        to="/projects"
+        to="/glossary"
       >
-        Projects
+        Glossary
       </Link>
       {/* <Link
         className={`${currentPath === "/blog" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${

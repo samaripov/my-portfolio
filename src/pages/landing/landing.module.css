@@ -1,8 +1,16 @@
-.imageContainer {
+.homeImageContainer {
   background-image: url("./pexels-abby-chung-371167-1191377.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.projectsImageContainer {
+  background-image: url("./pexels-david-bartus-43782-1166209.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .container {
   display: flex;
   padding-block-start: 5rem;
@@ -42,6 +50,7 @@
   padding-inline: 0.5rem;
   border-radius: 1rem;
   font-weight: bold;
+  width: fit-content;
   position: absolute;
   transition: all 0.3s ease-in;
   transform: translateX(7rem);

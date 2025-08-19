@@ -1,47 +1,22 @@
-import landingStyles from "./landing.module.css";
+import GlossaryCard from "../../components/glossaryCard/glossaryCard";
 import ProjectCard from "../../components/projectCard/projectCard";
-import Footer from "../../components/footer/Footer";
+import landingStyles from "../landing/landing.module.css";
+import glossaryStyles from "./glossary.module.css";
 
-export default function LandingPage() {
+export default function GlossaryPage() {
   return (
-    <div className={landingStyles.homeImageContainer}>
+    <div className={landingStyles.projectsImageContainer}>
       <div className={landingStyles.container}>
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
-            <div className={landingStyles.greeting}>
-              <p>Hi! How are you?</p>
+            <div className={landingStyles.greeting} style={{ opacity: "1" }}>
+              <p>Lovely Glossary!</p>
             </div>
             <img src="./pixels.jpg" alt="" />
           </div>
-          <div className={landingStyles.whiteBox}>
-            <div className={landingStyles.title}>
-              <p></p>
-              <p></p>
-              <p></p>
-              <h1>Sam Aripov</h1>
-            </div>
-            <p>Alumni of The Ohio State University</p>
-            <p>Bachelor of Computer Science & Engineering</p>
-          </div>
         </div>
-        <div className={landingStyles.whiteBox}>
-          <div className={landingStyles.title}>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1>The Odin Project's</h1>
-          </div>
-          <p>
-            These are not tutorial projects. All code was written by me. The
-            projects' scope and requirements <strong>only</strong> were defined
-            on the{" "}
-            <a href="https://www.theodinproject.com" target="_blank">
-              The Odin Project
-            </a>{" "}
-            website.
-          </p>
-        </div>
-        <div className={landingStyles.grid}>
+        <GlossaryCard />
+        <div className={glossaryStyles.projects}>
           <ProjectCard
             name="Fake Store"
             description="WebApp that pulls product information from an API. Present all products with professional design."
@@ -132,40 +107,6 @@ export default function LandingPage() {
             projectLink={"https://aripov-cv-app.netlify.app/"}
           />
         </div>
-        <div className={landingStyles.whiteBox}>
-          <div className={landingStyles.title}>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1>Projects in progress...</h1>
-          </div>
-          <p>This is a project that I am currently working on.</p>
-        </div>
-        <div className={landingStyles.grid}>
-          <ProjectCard
-            name="File Uploader"
-            description="A WebApp with the feel of an OS file manager. Will provide cloud storage for any image types. Planning to self-host the storage server on Ubuntu Linux for learning experience."
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["React Routers", "#f5425a"],
-              ["Redux", "#1b7eae"],
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-              ["Express JS", "#04d10e"],
-              ["Passport JS", "#66c7ff"],
-              ["PostgreSQL", "#1b7eae"],
-              ["PrismaORM", "#5b34eb"],
-              ["Google Auth", "#fc030b"],
-              ["JWT", "#5203fc"],
-            ]}
-            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
-            imageSource={"./FileUploader-Photos/menuUI.png"}
-            imageAlt={
-              "An image of folders with Google Auth next the folders. made by Sam Aripov"
-            }
-          />
-        </div>
-        <Footer color="#1b7eef" />
       </div>
     </div>
   );
