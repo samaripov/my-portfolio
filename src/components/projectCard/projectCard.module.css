@@ -21,6 +21,7 @@
   justify-content: center;
 }
 .openText {
+  text-align: center;
   z-index: 1;
   color: white;
   font-weight: bold;

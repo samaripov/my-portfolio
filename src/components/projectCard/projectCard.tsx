@@ -22,7 +22,7 @@ export default function ProjectCard({
         </a>
       ) : (
         <div className={cardStyles.imageLink}>
-          <h1 className={cardStyles.openText}>This project is offline...</h1>
+          <h1 className={cardStyles.openText}>This project is currently offline...</h1>
           <img src={imageSource} alt={imageAlt} />
         </div>
       )}
