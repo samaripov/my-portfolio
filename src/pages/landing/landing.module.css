@@ -69,7 +69,17 @@
   margin: 1rem;
   padding: 1rem;
   width: 1fr;
-  box-shadow: 5px 5px 20px rgb(94, 94, 94);
+  max-width: 36rem;
+  box-shadow: 5px 5px 20px rgb(180, 180, 180);
+}
+
+.whiteBox a {
+  color: #1b7eef;
+}
+.whiteBox a:hover {
+  color: #58a6ff;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .title {
@@ -84,6 +94,7 @@
   border-radius: 1rem;
   margin-right: 0.2rem;
 }
+
 .title h1 {
   font-size: larger;
   font-weight: bold;
@@ -95,5 +106,6 @@
   gap: 1rem;
   justify-items: center;
   margin-inline: 1rem;
+  margin-block-end: 4.5rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }

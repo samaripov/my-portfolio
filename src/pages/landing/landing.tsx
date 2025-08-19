@@ -29,6 +29,14 @@ export default function LandingPage() {
             <p></p>
             <h1>The Odin Project's</h1>
           </div>
+          <p>
+            These are not tutorial projects. All code was written by me. The projects' scope and requirements only
+            were defined on the{" "}
+            <a href="https://www.theodinproject.com" target="_blank">
+              The Odin Project
+            </a>{" "}
+            website.
+          </p>
         </div>
         <div className={landingStyles.grid}>
           <ProjectCard
