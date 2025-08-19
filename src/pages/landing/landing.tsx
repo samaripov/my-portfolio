@@ -18,8 +18,16 @@ export default function LandingPage() {
               <p></p>
               <h1>Sirojiddin Aripov</h1>
             </div>
-            <p>The Ohio State University Alumni</p>
+            <p>Alumni of The Ohio State University</p>
             <p>Bachelor's in Computer Science & Engineering</p>
+          </div>
+        </div>
+        <div className={landingStyles.whiteBox}>
+          <div className={landingStyles.title}>
+            <p></p>
+            <p></p>
+            <p></p>
+            <h1>The Odin Project's</h1>
           </div>
         </div>
         <div className={landingStyles.grid}>
@@ -54,8 +62,9 @@ export default function LandingPage() {
             link={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
           />
         </div>
+
+        <Footer color="#1b7eef" />
       </div>
-      <Footer color="#1b7eef" />
     </div>
   );
 }
