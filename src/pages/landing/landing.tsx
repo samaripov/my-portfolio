@@ -100,6 +100,18 @@ export default function LandingPage() {
             imageSource={"./MembersOnly-Photos/chat.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
           />
+          <ProjectCard
+            name="Reponsive Homepage"
+            description="Responsive portfolio mock-up. Changes the layout based on the screen size."
+            techUsed={[
+              ["CSS", "#ab06cc"],
+              ["JavaScript", "#ebdb34"],
+            ]}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
+            imageSource={"./ResponsiveCSS-Photos/intro.png"}
+            imageAlt={"Image of a placeholder introduction page."}
+            projectLink={"https://samaripov.github.io/Project-Homepage/"}
+          />
         </div>
 
         <Footer color="#1b7eef" />
