@@ -1,6 +1,7 @@
 .imageContainer {
   background-image: url("./pexels-abby-chung-371167-1191377.jpg");
-  background-size:contain;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .container {
   display: flex;
