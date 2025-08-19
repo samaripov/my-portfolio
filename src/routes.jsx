@@ -11,7 +11,7 @@ export default [
     children: [
       { index: true, Component: LandingPage },
       { path: "/projects", Component: ProjectsPage },
-      { path: "/blog", Component: BlogPage },
+      // { path: "/blog", Component: BlogPage },
     ],
   },
 ];

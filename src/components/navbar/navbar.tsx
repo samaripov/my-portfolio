@@ -19,16 +19,16 @@ export default function Navbar() {
         break;
       case "/projects":
         setSelectStyles({
-          background: "#eac435",
+          background: "#e40066",
           transform: "translate(8.5rem)",
         });
         break;
-      case "/blog":
-        setSelectStyles({
-          background: "#e40066",
-          transform: "translate(17rem)",
-        });
-        break;
+      // case "/blog":
+      //   setSelectStyles({
+      //   background: "#eac435",
+      //     transform: "translate(17rem)",
+      //   });
+      //   break;
     }
   }, [currentPath]);
   return (
@@ -51,14 +51,14 @@ export default function Navbar() {
       >
         Projects
       </Link>
-      <Link
+      {/* <Link
         className={`${currentPath === "/blog" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
           navbarStyle.button
         }`}
         to="/blog"
       >
         Blog
-      </Link>
+      </Link> */}
       <div
         id="select"
         style={selectStyles}

@@ -16,7 +16,9 @@ export default function LandingPage() {
           <div className={landingStyles.whiteBox}>
             <div className={landingStyles.title}>
               <p></p>
-              <h1>Sirojiddin Aripov</h1>
+              <p></p>
+              <p></p>
+              <h1>Sam Aripov</h1>
             </div>
             <p>Alumni of The Ohio State University</p>
             <p>Bachelor's in Computer Science & Engineering</p>
@@ -30,8 +32,8 @@ export default function LandingPage() {
             <h1>The Odin Project's</h1>
           </div>
           <p>
-            These are not tutorial projects. All code was written by me. The projects' scope and requirements only
-            were defined on the{" "}
+            These are not tutorial projects. All code was written by me. The
+            projects' scope and requirements only were defined on the{" "}
             <a href="https://www.theodinproject.com" target="_blank">
               The Odin Project
             </a>{" "}
@@ -45,19 +47,14 @@ export default function LandingPage() {
             techUsed={[
               ["React.js", "#1b7eef"],
               ["React Routers", "#f5425a"],
-              ["JavaScript", "#ebdb34"],
               ["Context API", "#1b7eae"],
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
             ]}
-            link={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
-          />
-          <ProjectCard
-            name="Battleship"
-            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
-            techUsed={[
-              ["Vanilla JS", "#ebdb34"],
-              ["HTML Drag & Drop API", "#eb7f13"],
-            ]}
-            link={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+            imageSource={"./FakeStore-Photos/store-catalog.png"}
+            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
+            projectLink={"https://aripov-fake-store.netlify.app/"}
           />
           <ProjectCard
             name="Members Only"
@@ -66,11 +63,29 @@ export default function LandingPage() {
               ["Express JS", "#04d10e"],
               ["Passport JS", "#66c7ff"],
               ["PostgreSQL", "#1b7eae"],
+              ["PrismaORM", "#5b34eb"],
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
             ]}
-            link={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
+            imageSource={"./MembersOnly-Photos/chat.png"}
+            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
+          />
+          <ProjectCard
+            name="Battleship"
+            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML. Developed using a TDD methodology."
+            techUsed={[
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+              ["HTML Drag & Drop API", "#eb7f13"],
+            ]}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
+            imageSource={"./Battleship-Photos/ingame.png"}
+            imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
+            projectLink={"https://samaripov.github.io/Project-Battleship/"}
           />
         </div>
-
+            
         <Footer color="#1b7eef" />
       </div>
     </div>
