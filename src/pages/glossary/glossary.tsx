@@ -1,12 +1,12 @@
 import GlossaryCard from "../../components/glossaryCard/glossaryCard";
-import ProjectCard from "../../components/projectCard/projectCard";
+import ProjectCardHorizontal from "../../components/projectCardHorizontal/projectCardHorizontal";
 import landingStyles from "../landing/landing.module.css";
 import glossaryStyles from "./glossary.module.css";
 
 export default function GlossaryPage() {
   return (
-    <div className={landingStyles.projectsImageContainer}>
-      <div className={landingStyles.container}>
+    <div className={glossaryStyles.imageContainer}>
+      <div className={glossaryStyles.container}>
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
             <div className={landingStyles.greeting} style={{ opacity: "1" }}>
@@ -17,9 +17,9 @@ export default function GlossaryPage() {
         </div>
         <GlossaryCard />
         <div className={glossaryStyles.projects}>
-          <ProjectCard
+          <ProjectCardHorizontal
             name="Fake Store"
-            description="WebApp that pulls product information from an API. Present all products with professional design."
+            direction="flip"
             techUsed={[
               ["React.js", "#1b7eef"],
               ["React Routers", "#f5425a"],
@@ -32,9 +32,8 @@ export default function GlossaryPage() {
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
             projectLink={"https://aripov-fake-store.netlify.app/"}
           />
-          <ProjectCard
+          <ProjectCardHorizontal
             name="Responsive Homepage"
-            description="Responsive portfolio mock-up. Changes the layout based on the screen size."
             techUsed={[
               ["CSS", "#ab06cc"],
               ["JavaScript", "#ebdb34"],
@@ -46,9 +45,9 @@ export default function GlossaryPage() {
             imageAlt={"Image of a placeholder introduction page."}
             projectLink={"https://samaripov.github.io/Project-Homepage/"}
           />
-          <ProjectCard
+          <ProjectCardHorizontal
             name="Members Only"
-            description="A server based app, with authentication. Utilizes server side rendering with Embedded JavaScript."
+            direction="flip"
             techUsed={[
               ["Express JS", "#04d10e"],
               ["Passport JS", "#66c7ff"],
@@ -61,9 +60,8 @@ export default function GlossaryPage() {
             imageSource={"./MembersOnly-Photos/chat.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
           />
-          <ProjectCard
+          <ProjectCardHorizontal
             name="Memory Game"
-            description="React application that pulls images of Pokémon from an API. A game that made with React useEffect and useState."
             techUsed={[
               ["React.js", "#1b7eef"],
               ["JavaScript", "#ebdb34"],
@@ -78,9 +76,9 @@ export default function GlossaryPage() {
             }
             projectLink={"https://ari-pokemon-memory.netlify.app/"}
           />
-          <ProjectCard
+          <ProjectCardHorizontal
             name="Battleship"
-            description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
+            direction="flip"
             techUsed={[
               ["JavaScript", "#ebdb34"],
               ["CSS", "#ab06cc"],
@@ -91,9 +89,8 @@ export default function GlossaryPage() {
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
             projectLink={"https://samaripov.github.io/Project-Battleship/"}
           />
-          <ProjectCard
+          <ProjectCardHorizontal
             name="React CV Forms"
-            description="React project that uses many different types of forms. Provides snappy UI for form fill-out."
             techUsed={[
               ["React.js", "#1b7eef"],
               ["JavaScript", "#ebdb34"],
@@ -105,6 +102,27 @@ export default function GlossaryPage() {
             imageSource={"./CVForm-Photos/form.png"}
             imageAlt={"Image of a form for a CV application."}
             projectLink={"https://aripov-cv-app.netlify.app/"}
+          />
+          <ProjectCardHorizontal
+            name="File Uploader"
+            direction="flip"
+            techUsed={[
+              ["React.js", "#1b7eef"],
+              ["React Routers", "#f5425a"],
+              ["Redux", "#1b7eae"],
+              ["JavaScript", "#ebdb34"],
+              ["Express JS", "#04d10e"],
+              ["Passport JS", "#66c7ff"],
+              ["PostgreSQL", "#1b7eae"],
+              ["PrismaORM", "#5b34eb"],
+              ["Google Auth", "#fc030b"],
+              ["JWT", "#5203fc"],
+            ]}
+            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+            imageSource={"./FileUploader-Photos/menuUI.png"}
+            imageAlt={
+              "An image of folders with Google Auth next the folders. made by Sam Aripov"
+            }
           />
         </div>
       </div>

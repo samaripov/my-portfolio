@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  background: white;
+  border-radius: 1rem;
+  min-width: 8rem;
+  height: 100%;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(195, 195, 195, 0.804);
+  transition: transform 0.3s ease-in-out;
+}
+.imageLink img {
+  min-height: 17rem;
+  height: 25rem;
+  object-fit: fit;
+  transition: filter 0.3s ease-in-out;
+}
+.imageLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.openText {
+  text-align: center;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+.container .imageLink:hover .openText {
+  opacity: 1;
+}
+
+.container .imageLink:hover img {
+  filter: brightness(0.5);
+}
+
+.container:hover {
+  cursor: pointer;
+  transform: scale(102%);
+}
+
+.view {
+  transition: width 0.4s ease-in-out;
+  width: 0rem;
+}
+
+.content:hover .view {
+  width: 5.8rem;
+}
+
+.content {
+  width: fit-content;
+  max-width: 50rem;
+  padding: 1rem;
+}
+
+.content h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.content hr {
+  height: 1px;
+  color: rgb(181, 181, 181);
+}
+
+.title {
+  display: flex;
+  width: min-content;
+  align-items: center;
+}
+
+.title p {
+  background: #1b7eef;
+  max-height: 3rem;
+  border-radius: 1rem;
+  margin-right: 0.3rem;
+}
+
+.content h1 {
+  font-weight: bold;
+  color: #1b7eef;
+}
+
+.verticalFlex {
+  font-size: smaller;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.horizontalFlex {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  gap: 0.2rem;
+}
+.horizontalFlex h1 {
+  text-wrap: wrap;
+}
+.horizontalFlex svg {
+  max-width: 2rem;
+}

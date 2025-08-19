@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 
 export default function LandingPage() {
   return (
-    <div className={landingStyles.homeImageContainer}>
+    <div className={landingStyles.imageContainer}>
       <div className={landingStyles.container}>
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
@@ -150,7 +150,6 @@ export default function LandingPage() {
               ["React Routers", "#f5425a"],
               ["Redux", "#1b7eae"],
               ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
               ["Express JS", "#04d10e"],
               ["Passport JS", "#66c7ff"],
               ["PostgreSQL", "#1b7eae"],
