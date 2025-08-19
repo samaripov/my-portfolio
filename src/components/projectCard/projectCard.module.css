@@ -3,16 +3,14 @@
   background: white;
   border-radius: 1rem;
   height: min-content;
-  width: 2fr;
   min-width: min-content;
   min-height: 29rem;
-  box-shadow: 5px 5px 10px rgb(188, 188, 188);
+  box-shadow: 5px 5px 10px rgba(228, 228, 228, 0.804);
   transition: transform 0.3s ease-in-out;
 }
 .imageLink img {
   min-height: 17rem;
   object-fit: cover;
-  width: 1fr;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   transition: filter 0.3s ease-in-out;
@@ -52,19 +50,20 @@
 .content:hover .view {
   width: 7rem;
 }
+
 .content {
+  width: fit-content;
+  max-width: 50rem;
   padding: 1rem;
 }
-.content p {
-  width: 1fr;
-  max-width: 34rem;
-}
+
 .content h1 {
   font-size: x-large;
   overflow: hidden;
   white-space: nowrap;
   font-weight: bold;
 }
+
 .content hr {
   height: 1px;
   color: rgb(181, 181, 181);
@@ -74,15 +73,14 @@
   display: flex;
   align-items: center;
 }
+
 .title p {
   background: #1b7eef;
   max-height: 3rem;
-  min-width: 0.2rem;
-  width: 1fr;
-  max-width: 34rem;
   border-radius: 1rem;
   margin-right: 0.3rem;
 }
+
 .title h1 {
   font-size: larger;
   font-weight: bold;
@@ -92,8 +90,6 @@
 .horizontalContainer {
   display: flex;
   align-items: center;
-  width: 1fr;
-  max-width: 34rem;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
