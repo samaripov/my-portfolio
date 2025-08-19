@@ -106,6 +106,5 @@
   gap: 1rem;
   justify-items: center;
   margin-inline: 1rem;
-  margin-block-end: 4.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }

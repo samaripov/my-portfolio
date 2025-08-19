@@ -33,7 +33,8 @@ export default function LandingPage() {
           </div>
           <p>
             These are not tutorial projects. All code was written by me. The
-            projects' scope and requirements <strong>only</strong> were defined on the{" "}
+            projects' scope and requirements <strong>only</strong> were defined
+            on the{" "}
             <a href="https://www.theodinproject.com" target="_blank">
               The Odin Project
             </a>{" "}
@@ -55,6 +56,21 @@ export default function LandingPage() {
             imageSource={"./FakeStore-Photos/store-catalog.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
             projectLink={"https://aripov-fake-store.netlify.app/"}
+          />
+          <ProjectCard
+            name="Memory Game"
+            description="React application that pulls images of Pokémon from an API. A game that made with React useEffect and useState."
+            techUsed={[
+              ["React.js", "#1b7eef"],
+              ["JavaScript", "#ebdb34"],
+              ["CSS", "#ab06cc"],
+            ]}
+            repoLink={
+              "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
+            }
+            imageSource={"./PokemonMemory-Photos/game.png"}
+            imageAlt={"An image of a Pokémon card memory game!"}
+            projectLink={"https://ari-pokemon-memory.netlify.app/"}
           />
           <ProjectCard
             name="Battleship"

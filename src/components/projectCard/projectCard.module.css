@@ -9,6 +9,8 @@
   transition: transform 0.3s ease-in-out;
 }
 .imageLink img {
+  min-height: 17rem;
+  object-fit: cover;
   width: 1fr;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
