@@ -132,15 +132,13 @@ export default function LandingPage() {
             projectLink={"https://aripov-cv-app.netlify.app/"}
           />
         </div>
-        <div className={landingStyles.whiteBox}>
-          <div className={landingStyles.title}>
-            <p></p>
-            <p></p>
-            <p></p>
-            <h1>Projects in progress...</h1>
-          </div>
-          <p>This is a project that I am currently working on.</p>
+        <div className={landingStyles.title}>
+          <p></p>
+          <p></p>
+          <p></p>
+          <h1 className={landingStyles.largerText}>Current project in progress...</h1>
         </div>
+
         <div className={landingStyles.grid}>
           <ProjectCard
             name="File Uploader"

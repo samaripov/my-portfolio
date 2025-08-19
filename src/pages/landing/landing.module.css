@@ -104,6 +104,16 @@
   color: hsl(153, 51%, 56%);
 }
 
+.container > .title p {
+  min-height: 2.4rem;
+  min-width: 0.8rem;
+  margin-right: 0.3rem;
+}
+.container > .title h1 {
+  font-size: 300%;
+  margin-block: 1rem;
+}
+
 .grid {
   display: grid;
   gap: 1rem;
