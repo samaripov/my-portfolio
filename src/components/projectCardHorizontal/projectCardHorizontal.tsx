@@ -17,7 +17,7 @@ export default function ProjectCardHorizontal({
     direction === "flip" ? cardStyles.flip : cardStyles.default;
 
   return (
-    <div className={`${cardStyles.container} ${containerDirection}`}>
+    <div className={`${containerDirection} ${cardStyles.container} `}>
       {projectLink ? (
         <a className={cardStyles.imageLink} href={projectLink} target="_blank">
           <h1 className={cardStyles.openText}>Open in another tab</h1>
