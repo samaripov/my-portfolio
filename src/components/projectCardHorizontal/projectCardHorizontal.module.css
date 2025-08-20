@@ -3,15 +3,26 @@
   background: white;
   border-radius: 1rem;
   height: 100%;
-  max-width: 50rem;
+  max-width: 60rem;
   justify-self: center;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(195, 195, 195, 0.804);
   transition: transform 0.3s ease-in-out;
 }
+.flip {
+  flex-direction: row-reverse;
+}
+.flip a img {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.default a img {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
 .imageLink img {
   object-fit: cover;
-  width: 1fr;
+  height: max-content;
   transition: filter 0.3s ease-in-out;
 }
 .imageLink {

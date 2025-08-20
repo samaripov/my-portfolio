@@ -13,25 +13,22 @@ export default function ProjectCardHorizontal({
   const categories = techUsed.map(([name, color]) => (
     <TechCategory name={name} color={color} key={name} />
   ));
-  const flip = direction === "flip" ? { flexDirection: "row-reverse" } : {};
-  const imageCorners =
-    direction === "flip"
-      ? { borderTopRightRadius: "1rem", borderBottomRightRadius: "1rem" }
-      : { borderTopLeftRadius: "1rem", borderBottomLeftRadius: "1rem"};
+  const containerDirection =
+    direction === "flip" ? cardStyles.flip : cardStyles.default;
 
   return (
-    <div className={cardStyles.container} style={flip}>
+    <div className={`${cardStyles.container} ${containerDirection}`}>
       {projectLink ? (
         <a className={cardStyles.imageLink} href={projectLink} target="_blank">
           <h1 className={cardStyles.openText}>Open in another tab</h1>
-          <img src={imageSource} alt={imageAlt} style={imageCorners} />
+          <img src={imageSource} alt={imageAlt} />
         </a>
       ) : (
         <div className={cardStyles.imageLink}>
           <h1 className={cardStyles.openText}>
             This project is currently offline...
           </h1>
-          <img src={imageSource} alt={imageAlt} style={imageCorners} />
+          <img src={imageSource} alt={imageAlt} />
         </div>
       )}
       <a href={repoLink} target="_blank">

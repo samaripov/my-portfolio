@@ -2,6 +2,7 @@ import GlossaryCard from "../../components/glossaryCard/glossaryCard";
 import ProjectCardHorizontal from "../../components/projectCardHorizontal/projectCardHorizontal";
 import landingStyles from "../landing/landing.module.css";
 import glossaryStyles from "./glossary.module.css";
+import Footer from "../../components/footer/Footer";
 
 export default function GlossaryPage() {
   return (
@@ -126,6 +127,7 @@ export default function GlossaryPage() {
           />
         </div>
       </div>
+      <Footer color="#e40066" />
     </div>
   );
 }
