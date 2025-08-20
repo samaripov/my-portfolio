@@ -1,18 +1,21 @@
+import GlossaryTerm from "../glossaryTerm/glossaryTerm";
 import TechCategory from "../techCategory/TechCategory";
 import cardStyles from "./projectCardHorizontal.module.css";
 
 export default function ProjectCardHorizontal({
   name,
   repoLink,
-  techUsed,
+  glossary = [[]],
   imageSource,
   imageAlt,
   projectLink = "",
   direction = "default",
 }) {
-  const categories = techUsed.map(([name, color]) => (
-    <TechCategory name={name} color={color} key={name} />
-  ));
+  const glossaryTerms =
+    glossary.length > 0 &&
+    glossary.map(([name, link]) => (
+      <GlossaryTerm name={name} link={link} key={name} />
+    ));
   const containerDirection =
     direction === "flip" ? cardStyles.flip : cardStyles.default;
 
@@ -32,7 +35,6 @@ export default function ProjectCardHorizontal({
         </div>
       )}
       <div className={cardStyles.content}>
-        <div className={cardStyles.verticalFlex}>{categories}</div>
         <a href={repoLink} target="_blank">
           <div className={cardStyles.horizontalFlex}>
             <svg viewBox="0 0 128 128">
@@ -50,6 +52,7 @@ export default function ProjectCardHorizontal({
           </div>
           <h1 className={cardStyles.view}>View Repo</h1>
         </a>
+        <div className={cardStyles.verticalFlex}>{glossaryTerms}</div>
       </div>
     </div>
   );

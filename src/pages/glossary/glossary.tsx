@@ -1,4 +1,3 @@
-import GlossaryCard from "../../components/glossaryCard/glossaryCard";
 import ProjectCardHorizontal from "../../components/projectCardHorizontal/projectCardHorizontal";
 import landingStyles from "../landing/landing.module.css";
 import glossaryStyles from "./glossary.module.css";
@@ -11,22 +10,64 @@ export default function GlossaryPage() {
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
             <div className={landingStyles.greeting} style={{ opacity: "1" }}>
-              <p>Currently gathering all terms please remain calm!</p>
+              <p>Lovely glossary!</p>
             </div>
             <img src="./pixels.jpg" alt="" />
           </div>
         </div>
-        <GlossaryCard />
         <div className={glossaryStyles.projects}>
           <ProjectCardHorizontal
             name="Fake Store"
             direction="flip"
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["React Routers", "#f5425a"],
-              ["Context API", "#1b7eae"],
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
+            glossary={[
+              [
+                "JSON.parse",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/addRemoveItemBtn/addRemoveItemBtn.jsx",
+              ],
+              [
+                "useContext()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "useEffect()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/navbar/navbar.jsx",
+              ],
+              [
+                "useLocation()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/navbar/navbar.jsx",
+              ],
+              [
+                "toFixed()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "URLSearchParams()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "useSubmit()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "Math.round()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "createContext()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "getElementById()",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "createBrowserRouter",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
+              [
+                "<RouterProvider ... />",
+                "https://github.com/samaripov/Project-Fake-Store/blob/main/src/componets/productCard/productCard.jsx",
+              ],
             ]}
             repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
             imageSource={"./FakeStore-Photos/store-catalog.png"}
@@ -35,10 +76,6 @@ export default function GlossaryPage() {
           />
           <ProjectCardHorizontal
             name="Responsive Homepage"
-            techUsed={[
-              ["CSS", "#ab06cc"],
-              ["JavaScript", "#ebdb34"],
-            ]}
             repoLink={
               "https://github.com/samaripov/Project-Homepage?tab=readme-ov-file"
             }
@@ -49,25 +86,12 @@ export default function GlossaryPage() {
           <ProjectCardHorizontal
             name="Members Only"
             direction="flip"
-            techUsed={[
-              ["Express JS", "#04d10e"],
-              ["Passport JS", "#66c7ff"],
-              ["PostgreSQL", "#1b7eae"],
-              ["PrismaORM", "#5b34eb"],
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-            ]}
             repoLink={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
             imageSource={"./MembersOnly-Photos/chat.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
           />
           <ProjectCardHorizontal
             name="Memory Game"
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-            ]}
             repoLink={
               "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
             }
@@ -80,11 +104,6 @@ export default function GlossaryPage() {
           <ProjectCardHorizontal
             name="Battleship"
             direction="flip"
-            techUsed={[
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-              ["HTML Drag & Drop API", "#eb7f13"],
-            ]}
             repoLink={"https://github.com/Aripov-Sirojiddin/Project-Battleship"}
             imageSource={"./Battleship-Photos/ingame.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
@@ -92,11 +111,6 @@ export default function GlossaryPage() {
           />
           <ProjectCardHorizontal
             name="React CV Forms"
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["JavaScript", "#ebdb34"],
-              ["CSS", "#ab06cc"],
-            ]}
             repoLink={
               "https://github.com/samaripov/Project-CV-Application?tab=readme-ov-file"
             }
@@ -107,18 +121,6 @@ export default function GlossaryPage() {
           <ProjectCardHorizontal
             name="File Uploader"
             direction="flip"
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["React Routers", "#f5425a"],
-              ["Redux", "#1b7eae"],
-              ["JavaScript", "#ebdb34"],
-              ["Express JS", "#04d10e"],
-              ["Passport JS", "#66c7ff"],
-              ["PostgreSQL", "#1b7eae"],
-              ["PrismaORM", "#5b34eb"],
-              ["Google Auth", "#fc030b"],
-              ["JWT", "#5203fc"],
-            ]}
             repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
             imageSource={"./FileUploader-Photos/menuUI.png"}
             imageAlt={
