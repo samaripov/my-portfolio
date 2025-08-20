@@ -29,7 +29,7 @@ export default function LandingPage() {
             <p></p>
             <p></p>
             <p></p>
-            <h1>The Odin Project's</h1>
+            <h1>The Odin Project</h1>
           </div>
           <p>
             These are not tutorial projects. All code was written by me. The
