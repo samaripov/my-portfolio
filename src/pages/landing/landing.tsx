@@ -136,7 +136,7 @@ export default function LandingPage() {
           <p></p>
           <p></p>
           <p></p>
-          <h1 className={landingStyles.largerText}>Current project in progress...</h1>
+          <h1>Current project in progress...</h1>
         </div>
 
         <div className={landingStyles.grid}>

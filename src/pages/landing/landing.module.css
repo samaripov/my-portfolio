@@ -105,12 +105,12 @@
 }
 
 .container > .title p {
-  min-height: 2.4rem;
-  min-width: 0.8rem;
-  margin-right: 0.3rem;
+  min-height: 4vw;
+  min-width: 1.3vw;
+  margin-right: 0.5vw;
 }
 .container > .title h1 {
-  font-size: 300%;
+  font-size: 6vw;
   margin-block: 1rem;
 }
 
