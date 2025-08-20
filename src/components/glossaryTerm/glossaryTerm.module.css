@@ -6,11 +6,11 @@
 .container a {
   display: flex;
   align-items: center;
-  color: #6fb7eb;
+  color: #22a3ff;
   font-weight: bolder;
 }
 .container a:hover {
-  color: #1688d9;
+  color: #0d72bb;
   font-weight: bolder;
 }
 .container a span {
