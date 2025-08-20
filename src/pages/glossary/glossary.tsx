@@ -61,11 +61,11 @@ export default function GlossaryPage() {
                 "https://github.com/samaripov/Project-Fake-Store/blob/cf49337915745f72607aff28fc6fb1667ca3f921/src/App.jsx#L7",
               ],
               [
-                "getElementById()",
+                "document.getElementById()",
                 "https://github.com/samaripov/Project-Fake-Store/blob/cf49337915745f72607aff28fc6fb1667ca3f921/src/App.jsx#L17",
               ],
               [
-                "createBrowserRouter",
+                "createBrowserRouter()",
                 "https://github.com/samaripov/Project-Fake-Store/blob/cf49337915745f72607aff28fc6fb1667ca3f921/src/main.jsx#L13",
               ],
               [
@@ -168,6 +168,28 @@ export default function GlossaryPage() {
               "An image of a Pokémon card memory game! made by Sam Aripov"
             }
             projectLink={"https://ari-pokemon-memory.netlify.app/"}
+            glossary={[
+              [
+                "useState()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L6C41-L6C49",
+              ],
+              [
+                "fetch()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L19",
+              ],
+              [
+                "new Number()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L50C23-L50C29",
+              ],
+              [
+                "filter: brightness()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.css#L24C3-L24C22",
+              ],
+              [
+                "slice()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/helpers/capitalize.js#L1C62-L1C67",
+              ],
+            ]}
           />
           <ProjectCardHorizontal
             name="Battleship"
@@ -176,6 +198,48 @@ export default function GlossaryPage() {
             imageSource={"./Battleship-Photos/ingame.png"}
             imageAlt={"Image of an e-commerce shop catalog made by Sam Aripov"}
             projectLink={"https://samaripov.github.io/Project-Battleship/"}
+            glossary={[
+              [
+                "document.createElement()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L6C32-L6C45",
+              ],
+              [
+                "classList.add()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L9C19-L9C33",
+              ],
+              [
+                "document.addEventListener()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L20C16-L20C32",
+              ],
+              [
+                "document.querySelector()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L30C18-L30C31",
+              ],
+              [
+                "String.fromCharCode()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L72C21-L72C40",
+              ],
+              [
+                "... .appendChild()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L15C15-L15C26",
+              ],
+              [
+                "... .remove()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L32C18-L32C28",
+              ],
+              [
+                "... .dataTransfer.setData()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L133",
+              ],
+              [
+                "... .dataTransfer.getData()",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L135C13-L135C35",
+              ],
+              [
+                "Turnary-Operation",
+                "https://github.com/samaripov/Project-Battleship/blob/9395fb9dfd1b051d9dbc5724e0c0f3ebc751313d/src/boardBuilderDOM.js#L166",
+              ],
+            ]}
           />
           <ProjectCardHorizontal
             name="React CV Forms"
@@ -185,6 +249,36 @@ export default function GlossaryPage() {
             imageSource={"./CVForm-Photos/form.png"}
             imageAlt={"Image of a form for a CV application."}
             projectLink={"https://aripov-cv-app.netlify.app/"}
+            glossary={[
+              [
+                "... .includes()",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/applicant_property/ApplicantProperty.jsx#L6C15-L6C32",
+              ],
+              [
+                "... .split()",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/applicant_property/ApplicantProperty.jsx#L7C27-L7C34",
+              ],
+              [
+                "... .replace()",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/applicant_property/ApplicantProperty.jsx#L8",
+              ],
+              [
+                "<select ... > ... </select>",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/finalview_or_edit/FinalViewOrSelectDegree.jsx#L26",
+              ],
+              [
+                "<textarea ...> ... </textarea>",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/input/Input.jsx#L23C6-L23C11",
+              ],
+              [
+                "Object.entries( ... )",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/helpers/isThereAMissingField.js#L5C29-L5C43",
+              ],
+              [
+                "<PhoneInput ... />",
+                "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/sections/GeneralInformation.jsx#L36",
+              ],
+            ]}
           />
           <ProjectCardHorizontal
             name="File Uploader"
