@@ -4,10 +4,10 @@ export default function GlossaryTerm({ name, link }) {
     <div className={termStyles.container}>
       <a href={link} target="_blank">
         {name && (
-          <>
+          <p>
             <span>#</span>
             {name}
-          </>
+          </p>
         )}
       </a>
     </div>

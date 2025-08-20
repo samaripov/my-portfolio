@@ -50,7 +50,7 @@ export default function ProjectCardHorizontal({
             <div className={cardStyles.title}></div>
             <h1>{name}</h1>
           </div>
-          <h1 className={cardStyles.view}>View Repo</h1>
+          <h1 className={cardStyles.view}> -View Repo</h1>
         </a>
         <div className={cardStyles.verticalFlex}>{glossaryTerms}</div>
       </div>

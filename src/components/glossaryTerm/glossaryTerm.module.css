@@ -4,6 +4,8 @@
 }
 
 .container a {
+  display: flex;
+  align-items: center;
   color: #6fb7eb;
   font-weight: bolder;
 }

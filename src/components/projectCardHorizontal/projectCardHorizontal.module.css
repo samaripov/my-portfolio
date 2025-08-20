@@ -22,8 +22,7 @@
   border-bottom-left-radius: 1rem;
 }
 .imageLink img {
-  min-height: 32.5rem;
-  object-fit: cover;
+  object-fit: fit;
   transition: filter 0.3s ease-in-out;
 }
 .imageLink {
@@ -107,13 +106,14 @@
 .horizontalFlex {
   display: flex;
   align-items: center;
-  width: max-content;
+  min-width: fit-content;
   gap: 0.2rem;
 }
 .horizontalFlex h1 {
   text-wrap: wrap;
 }
 .horizontalFlex svg {
+  min-width: 2rem;
   max-width: 2rem;
 }
 
@@ -134,12 +134,26 @@
   }
   .content {
     display: flex;
-    width: 100%;
+    width: fit-content;
     align-items: center;
   }
   .verticalFlex {
     min-width: inherit;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .content {
+    display: block;
+  }
+  .content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .horizontalFlex h1 {
+    text-wrap: nowrap;
+    min-width: fit-content;
   }
 }
