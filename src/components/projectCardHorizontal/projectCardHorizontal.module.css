@@ -22,8 +22,8 @@
   border-bottom-left-radius: 1rem;
 }
 .imageLink img {
+  min-height: 32.5rem;
   object-fit: cover;
-  height: max-content;
   transition: filter 0.3s ease-in-out;
 }
 .imageLink {

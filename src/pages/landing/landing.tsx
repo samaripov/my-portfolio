@@ -155,7 +155,7 @@ export default function LandingPage() {
               ["Google Auth", "#fc030b"],
               ["JWT", "#5203fc"],
             ]}
-            repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
+            repoLink={"https://github.com/samaripov/Project-File-Uploader"}
             imageSource={"./FileUploader-Photos/menuUI.png"}
             imageAlt={
               "An image of folders with Google Auth next the folders. made by Sam Aripov"
