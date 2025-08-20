@@ -2,16 +2,16 @@
   display: flex;
   background: white;
   border-radius: 1rem;
-  min-width: 8rem;
   height: 100%;
+  max-width: 50rem;
+  justify-self: center;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(195, 195, 195, 0.804);
   transition: transform 0.3s ease-in-out;
 }
 .imageLink img {
-  min-height: 17rem;
-  height: 25rem;
-  object-fit: fit;
+  object-fit: cover;
+  width: 1fr;
   transition: filter 0.3s ease-in-out;
 }
 .imageLink {

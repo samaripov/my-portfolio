@@ -9,8 +9,8 @@ export default function GlossaryPage() {
       <div className={glossaryStyles.container}>
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
-            <div className={landingStyles.greeting}>
-              <p>Lovely Glossary!</p>
+            <div className={landingStyles.greeting} style={{ opacity: "1" }}>
+              <p>Currently gathering all terms please remain calm!</p>
             </div>
             <img src="./pixels.jpg" alt="" />
           </div>
