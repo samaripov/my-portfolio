@@ -31,9 +31,9 @@ export default function ProjectCardHorizontal({
           <img src={imageSource} alt={imageAlt} />
         </div>
       )}
-      <a href={repoLink} target="_blank">
-        <div className={cardStyles.content}>
-          <div className={cardStyles.verticalFlex}>{categories}</div>
+      <div className={cardStyles.content}>
+        <div className={cardStyles.verticalFlex}>{categories}</div>
+        <a href={repoLink} target="_blank">
           <div className={cardStyles.horizontalFlex}>
             <svg viewBox="0 0 128 128">
               <g fill="#181616">
@@ -49,8 +49,8 @@ export default function ProjectCardHorizontal({
             <h1>{name}</h1>
           </div>
           <h1 className={cardStyles.view}>View Repo</h1>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   );
 }

@@ -59,7 +59,7 @@
   width: 0rem;
 }
 
-.content:hover .view {
+.content a:hover .view {
   width: 5.8rem;
 }
 
