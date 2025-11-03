@@ -38,6 +38,7 @@ export default function LandingPage() {
             name="Real Time Messenger"
             description="Multi platform app developed with Ruby on Rails, and runs on Android and iOS utilizing the Hotwire Native library."
             techUsed={[
+              ["Ruby on Rails", "#fc0f03"],
               ["Hotwire Native", "#fc03db"],
               ["Action Storage", "#fc0324"],
               ["Turbo Streams", "#03a9fc"],
@@ -50,6 +51,20 @@ export default function LandingPage() {
             imageAlt={"Picture of two chat windows from 2 different users, showcasing a simple discussion of an image."}
             repoLink={"https://github.com/samaripov/telegram-clone"}
             projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
+          />
+          <ProjectCard
+            name="Instagram Clone"
+            description="Project where I made a lot of mistakes when using turbo_frames. But I learned my lesson and took the new found knowledge to my new projects. Utilized AWS-Buckets for image storage."
+            techUsed={[
+              ["AWS", "#f59b42"],
+              ["Ruby on Rails", "#fc0f03"],
+              ["Action Storage", "#fc0324"],
+              ["Turbo Frames", "#3dfc03"],
+              ["CSS", "#ab06cc"],
+            ]}
+            imageSource={"./Instagram-Clone-Photos/Photo-4.png"}
+            imageAlt={"Picture of office and a like button selected."}
+            repoLink={"https://github.com/samaripov/RedditClone"}
           />
         </div>
         <div className={landingStyles.whiteBox}>
