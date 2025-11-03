@@ -29,6 +29,34 @@ export default function LandingPage() {
             <p></p>
             <p></p>
             <p></p>
+            <h1>Ruby on Rails Project</h1>
+          </div>
+          <p>Here is a showcase of my Ruby on Rails projects, developed for my own learning and growth. Also I ❤️ Ruby on Rails!</p>
+        </div>
+        <div className={landingStyles.grid}>
+          <ProjectCard
+            name="Real Time Messenger"
+            description="Multi platform app developed with Ruby on Rails, and runs on Android and iOS utilizing the Hotwire Native library."
+            techUsed={[
+              ["Hotwire Native", "#fc03db"],
+              ["Action Storage", "#fc0324"],
+              ["Turbo Streams", "#03a9fc"],
+              ["Turbo Frames", "#3dfc03"],
+              ["Devise", "#034afc"],
+              ["Stimulus Controllers", "#ebdb34"],
+              ["SASS", "#ab06cc"],
+            ]}
+            imageSource={"./Telegram-Clone-Photos/telegram-clone-screenshot.png"}
+            imageAlt={"Picture of two chat windows from 2 different users, showcasing a simple discussion of an image."}
+            repoLink={"https://github.com/samaripov/telegram-clone"}
+            projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
+          />
+        </div>
+        <div className={landingStyles.whiteBox}>
+          <div className={landingStyles.title}>
+            <p></p>
+            <p></p>
+            <p></p>
             <h1>The Odin Project</h1>
           </div>
           <p>
@@ -131,15 +159,6 @@ export default function LandingPage() {
             imageAlt={"Image of a form for a CV application."}
             projectLink={"https://aripov-cv-app.netlify.app/"}
           />
-        </div>
-        <div className={landingStyles.title}>
-          <p></p>
-          <p></p>
-          <p></p>
-          <h1>Current project in progress...</h1>
-        </div>
-
-        <div className={landingStyles.grid}>
           <ProjectCard
             name="File Uploader"
             description="A WebApp with the feel of an OS file manager. Will provide cloud storage for any image types. Planning to self-host the storage server on Ubuntu Linux for learning experience."
