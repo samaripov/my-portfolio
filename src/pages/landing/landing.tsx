@@ -42,7 +42,7 @@ export default function LandingPage() {
               ["Hotwire Native", "#fc03db"],
               ["Action Storage", "#fc0324"],
               ["Turbo Streams", "#03a9fc"],
-              ["Turbo Frames", "#3dfc03"],
+              ["Turbo Frames", "#59d833ff"],
               ["Devise", "#034afc"],
               ["Stimulus Controllers", "#ebdb34"],
               ["SASS", "#ab06cc"],
@@ -59,7 +59,7 @@ export default function LandingPage() {
               ["AWS", "#f59b42"],
               ["Ruby on Rails", "#fc0f03"],
               ["Action Storage", "#fc0324"],
-              ["Turbo Frames", "#3dfc03"],
+              ["Turbo Frames", "#59d833ff"],
               ["CSS", "#ab06cc"],
             ]}
             imageSource={"./Instagram-Clone-Photos/Photo-4.png"}

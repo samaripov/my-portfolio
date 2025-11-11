@@ -19,6 +19,7 @@ export default function GlossaryPage() {
           <ProjectCardHorizontal
             name="Real Time Messenger"
             repoLink={"https://github.com/samaripov/telegram-clone"}
+            projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
             imageSource={"./Telegram-Clone-Photos/Photo-2.png"}
             imageAlt={"Image of two chats having a basic discussion about an image of a pattern."}
             glossary={[
