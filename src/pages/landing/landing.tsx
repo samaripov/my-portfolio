@@ -9,7 +9,7 @@ export default function LandingPage() {
         <div className={landingStyles.horizontalFlex}>
           <div className={landingStyles.avatar}>
             <div className={landingStyles.greeting}>
-              <p>Hi! How are you?</p>
+              <p>Hello there</p>
             </div>
             <img src="./pixels.jpg" alt="" />
           </div>
