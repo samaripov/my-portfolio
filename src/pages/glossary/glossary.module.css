@@ -7,9 +7,6 @@
   margin-block-end: 1rem;
   padding: 0;
 }
-.projects img {
-  max-height: 20rem;
-}
 .imageContainer {
   background-image: url("./pexels-pixabay-206359.jpg");
   background-size: fit;
