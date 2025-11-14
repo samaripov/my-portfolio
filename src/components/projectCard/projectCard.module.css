@@ -2,10 +2,9 @@
   display: block;
   background: white;
   border-radius: 1rem;
-  min-width: min-content;
+  width: 1fr;
   box-shadow: 5px 5px 10px rgba(228, 228, 228, 0.804);
   transition: transform 0.3s ease-in-out;
-  margin: 1rem;
 }
 .imageLink img {
   border-top-left-radius: 1rem;
@@ -98,6 +97,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    max-width: 36rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
   .container {
     max-width: 21.5rem;
   }
