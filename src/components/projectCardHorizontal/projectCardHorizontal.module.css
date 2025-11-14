@@ -106,7 +106,6 @@
 .horizontalFlex {
   display: flex;
   align-items: center;
-  min-width: fit-content;
   gap: 0.2rem;
 }
 .horizontalFlex h1 {
@@ -120,8 +119,8 @@
 @media only screen and (max-width: 1000px) {
   .container,
   .flip {
-    min-width: 40rem;
-    max-width: 40rem;
+    min-width: 20rem;
+    max-width: 20rem;
     flex-direction: column;
   }
   .imageLink img {
@@ -149,7 +148,8 @@
 }
 @media only screen and (max-width: 600px) {
   .container,
-  .flip {
+  .flip,
+  .default {
     max-width: 36rem;
   }
   .content {
@@ -162,6 +162,13 @@
   }
   .horizontalFlex h1 {
     text-wrap: nowrap;
-    min-width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container,
+  .flip,
+  .default  {
+    max-width: 21.5rem;
   }
 }
