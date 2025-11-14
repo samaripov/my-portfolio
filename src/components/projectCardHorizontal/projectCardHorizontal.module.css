@@ -151,8 +151,8 @@
 @media only screen and (max-width: 600px) {
   .container,
   .flip {
-    min-width: 30rem;
-    max-width: 30rem;
+    min-width: 23rem;
+    max-width: 23rem;
   }
   .content {
     display: block;
@@ -164,6 +164,7 @@
   }
   .horizontalFlex h1 {
     text-wrap: nowrap;
+    min-width: -webkit-fill-available;
     min-width: fit-content;
   }
 }

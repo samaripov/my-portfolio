@@ -98,3 +98,9 @@
   max-width: 2.5rem;
   padding: 0.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 23rem;
+  }
+}
