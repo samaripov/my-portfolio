@@ -119,8 +119,8 @@
 @media only screen and (max-width: 1000px) {
   .container,
   .flip {
-    min-width: 20rem;
-    max-width: 20rem;
+    min-width: 40rem;
+    max-width: 40rem;
     flex-direction: column;
   }
   .imageLink img {
@@ -150,7 +150,8 @@
   .container,
   .flip,
   .default {
-    max-width: 36rem;
+    min-width: 27rem;
+    max-width: 27rem;
   }
   .content {
     display: block;
@@ -169,6 +170,7 @@
   .container,
   .flip,
   .default  {
+    min-width: 21.5rem;
     max-width: 21.5rem;
   }
 }
