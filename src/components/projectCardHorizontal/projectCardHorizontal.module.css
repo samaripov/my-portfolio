@@ -10,6 +10,7 @@
   align-items: center;
   box-shadow: 5px 5px 10px rgba(195, 195, 195, 0.804);
   transition: transform 0.3s ease-in-out;
+  margin: 0.5rem;
 }
 .flip {
   flex-direction: row-reverse;
@@ -151,8 +152,8 @@
 @media only screen and (max-width: 600px) {
   .container,
   .flip {
-    min-width: 23rem;
-    max-width: 23rem;
+    min-width: 22rem;
+    max-width: 22rem;
   }
   .content {
     display: block;
@@ -164,7 +165,6 @@
   }
   .horizontalFlex h1 {
     text-wrap: nowrap;
-    min-width: -webkit-fill-available;
     min-width: fit-content;
   }
 }

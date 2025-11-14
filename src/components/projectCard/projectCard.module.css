@@ -3,13 +3,11 @@
   background: white;
   border-radius: 1rem;
   min-width: min-content;
-  min-height: 29rem;
   box-shadow: 5px 5px 10px rgba(228, 228, 228, 0.804);
   transition: transform 0.3s ease-in-out;
+  margin: 1rem;
 }
 .imageLink img {
-  min-height: 17rem;
-  object-fit: contain;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   transition: filter 0.3s ease-in-out;
@@ -101,6 +99,6 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    max-width: 23rem;
+    max-width: 21.5rem;
   }
 }
