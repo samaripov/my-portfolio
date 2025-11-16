@@ -2,7 +2,7 @@
   display: block;
   background: white;
   border-radius: 1rem;
-  width: 1fr;
+  max-width: 50rem;
   box-shadow: 5px 5px 10px rgba(228, 228, 228, 0.804);
   transition: transform 0.3s ease-in-out;
 }

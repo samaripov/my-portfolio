@@ -22,6 +22,7 @@
   border-bottom-left-radius: 1rem;
 }
 .imageLink img {
+  min-height: 32rem;
   object-fit: cover;
   transition: filter 0.3s ease-in-out;
 }
@@ -116,7 +117,7 @@
   max-width: 2rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
   .container,
   .flip {
     min-width: 40rem;
@@ -146,7 +147,7 @@
     flex-direction: row;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .container,
   .flip,
   .default {

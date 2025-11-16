@@ -150,6 +150,77 @@ export default function GlossaryPage() {
             ]}
           />
           <ProjectCardHorizontal
+            name="File Uploader"
+            direction="flip"
+            repoLink={"https://github.com/samaripov/Project-File-Uploader"}
+            imageSource={"./FileUploader-Photos/menuUI.png"}
+            imageAlt={
+              "An image of folders with Google Auth next the folders. made by Sam Aripov"
+            }
+            glossary={[
+              [
+                "configureStore( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/store.ts#L6",
+              ],
+              [
+                "createSlice ( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/path/pathSlice.ts#L27C19-L27C30",
+              ],
+              [
+                "createAsyncThunk< ... >( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/path/pathSlice.ts#L60C30-L60C46",
+              ],
+              [
+                "axios.get( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/helpers/getFiles.ts#L4C16-L4C25",
+              ],
+              [
+                "axios.post( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/login/login.tsx#L26C11-L27C13",
+              ],
+              [
+                "jwtDecode<Token>(token);",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/user/userSlice.ts#L23C26-L23C50",
+              ],
+              [
+                'localStorage.setItem("token", token)',
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/user/userSlice.ts#L40C7-L41C1",
+              ],
+              [
+                "useSelector( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L22C16-L22C27",
+              ],
+              [
+                "useDispatch( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L23C20-L23C31",
+              ],
+              [
+                "useNavigate( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L24C20-L24C31",
+              ],
+              [
+                "... .map(()=>{ ... })",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L49C29-L49C32",
+              ],
+              [
+                "dispatch( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/components/createOrUpdateFolder/createOrUpdateFolder.tsx#L89",
+              ],
+              [
+                "useRef< ... >( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/components/folder/folder.tsx#L39C21-L39C27",
+              ],
+              [
+                "await prisma.users.create( ... )",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/server/models/user.js#L34C22-L34C41",
+              ],
+              [
+                "await prisma.files.findMany()",
+                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/server/models/folders.js#L45C19-L45C46",
+              ],
+            ]}
+          />
+          <ProjectCardHorizontal
             name="Members Only"
             direction="flip"
             repoLink={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
@@ -313,77 +384,6 @@ export default function GlossaryPage() {
               [
                 "<PhoneInput ... />",
                 "https://github.com/samaripov/Project-CV-Application/blob/fffc9f42cdae8fb77ec54b25db7239487d258e0b/src/components/sections/GeneralInformation.jsx#L36",
-              ],
-            ]}
-          />
-          <ProjectCardHorizontal
-            name="File Uploader"
-            direction="flip"
-            repoLink={"https://github.com/samaripov/Project-File-Uploader"}
-            imageSource={"./FileUploader-Photos/menuUI.png"}
-            imageAlt={
-              "An image of folders with Google Auth next the folders. made by Sam Aripov"
-            }
-            glossary={[
-              [
-                "configureStore( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/store.ts#L6",
-              ],
-              [
-                "createSlice ( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/path/pathSlice.ts#L27C19-L27C30",
-              ],
-              [
-                "createAsyncThunk< ... >( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/path/pathSlice.ts#L60C30-L60C46",
-              ],
-              [
-                "axios.get( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/helpers/getFiles.ts#L4C16-L4C25",
-              ],
-              [
-                "axios.post( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/login/login.tsx#L26C11-L27C13",
-              ],
-              [
-                "jwtDecode<Token>(token);",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/user/userSlice.ts#L23C26-L23C50",
-              ],
-              [
-                'localStorage.setItem("token", token)',
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/state/user/userSlice.ts#L40C7-L41C1",
-              ],
-              [
-                "useSelector( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L22C16-L22C27",
-              ],
-              [
-                "useDispatch( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L23C20-L23C31",
-              ],
-              [
-                "useNavigate( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L24C20-L24C31",
-              ],
-              [
-                "... .map(()=>{ ... })",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/routes/files/files.tsx#L49C29-L49C32",
-              ],
-              [
-                "dispatch( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/components/createOrUpdateFolder/createOrUpdateFolder.tsx#L89",
-              ],
-              [
-                "useRef< ... >( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/client/src/components/folder/folder.tsx#L39C21-L39C27",
-              ],
-              [
-                "await prisma.users.create( ... )",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/server/models/user.js#L34C22-L34C41",
-              ],
-              [
-                "await prisma.files.findMany()",
-                "https://github.com/samaripov/Project-File-Uploader/blob/c082064b72f3786f9a8d8bb40deb81d11e8f08f9/server/models/folders.js#L45C19-L45C46",
               ],
             ]}
           />
