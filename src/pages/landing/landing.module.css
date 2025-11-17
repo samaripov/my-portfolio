@@ -62,7 +62,7 @@
 }
 
 .avatar img {
-  max-width: 13rem;
+  max-width: 10rem;
   border-radius: 10rem;
 }
 
@@ -135,7 +135,17 @@
   }
 }
 @media only screen and (max-width: 1000px) {
+  .about_me {
+    display: flex;
+    flex-direction: column;
+  }
+  .whiteBox {
+    max-width: max-content;
+  }
   .container{
     padding-inline: 1rem;
+  }
+  .greeting {
+    transform: translateX(6rem);
   }
 }

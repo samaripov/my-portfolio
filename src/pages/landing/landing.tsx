@@ -6,7 +6,7 @@ export default function LandingPage() {
   return (
     <div className={landingStyles.imageContainer}>
       <div className={landingStyles.container}>
-        <div className={landingStyles.horizontalFlex}>
+        <div className={`${landingStyles.about_me} ${landingStyles.horizontalFlex}`}>
           <div className={landingStyles.avatar}>
             <div className={landingStyles.greeting}>
               <p>Hello there!</p>
