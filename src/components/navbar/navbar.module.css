@@ -1,5 +1,6 @@
 .container {
-  position: absolute;
+  position: fixed;
+  z-index: 1000;
   background: white;
   transition: all 0.3s ease-in-out;
   border-radius: 10rem;

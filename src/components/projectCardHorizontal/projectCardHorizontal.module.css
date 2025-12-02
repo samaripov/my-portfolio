@@ -7,30 +7,36 @@
   margin-inline: 1rem;
   justify-self: center;
   align-items: center;
-  box-shadow: 5px 5px 10px rgba(195, 195, 195, 0.804);
+  box-shadow: 5px 5px 10px rgba(71, 71, 71, 0.308);
   transition: transform 0.3s ease-in-out;
 }
+
 .flip {
   flex-direction: row-reverse;
 }
+
 .flip img {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
 .default img {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+
 .imageLink img {
   min-height: 32rem;
   object-fit: cover;
   transition: filter 0.3s ease-in-out;
 }
+
 .imageLink {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .openText {
   text-align: center;
   z-index: 1;
@@ -41,6 +47,7 @@
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
+
 .container .imageLink:hover .openText {
   opacity: 1;
 }
@@ -104,73 +111,88 @@
   justify-content: center;
   gap: 0.5rem;
 }
+
 .horizontalFlex {
   display: flex;
   align-items: center;
   gap: 0.2rem;
 }
+
 .horizontalFlex h1 {
   text-wrap: wrap;
 }
+
 .horizontalFlex svg {
   min-width: 2rem;
   max-width: 2rem;
 }
 
 @media only screen and (max-width: 1500px) {
+
   .container,
   .flip {
     min-width: 40rem;
     max-width: 40rem;
     flex-direction: column;
   }
+
   .imageLink img {
     min-height: fit-content;
   }
+
   .container img {
     object-fit: contain;
   }
+
   .flip img,
   .default img {
     border-radius: 0;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
   }
+
   .content {
     display: flex;
     width: fit-content;
     align-items: center;
   }
+
   .verticalFlex {
     min-width: inherit;
     flex-wrap: wrap;
     flex-direction: row;
   }
 }
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 1000px) {
+
   .container,
   .flip,
   .default {
-    min-width: 27rem;
-    max-width: 27rem;
+    min-width: 25rem;
+    max-width: 25rem;
   }
+
   .content {
     display: block;
   }
+
   .content a {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .horizontalFlex h1 {
     text-wrap: nowrap;
   }
 }
 
 @media only screen and (max-width: 400px) {
+
   .container,
   .flip,
-  .default  {
+  .default {
     min-width: 21.5rem;
     max-width: 21.5rem;
   }

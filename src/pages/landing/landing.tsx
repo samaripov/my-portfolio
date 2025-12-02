@@ -11,7 +11,7 @@ export default function LandingPage() {
             <div className={landingStyles.greeting}>
               <p>Hello there!</p>
             </div>
-            <img src="./avatar.jpg" alt="" />
+            <img src="./avatar.png" alt="" />
           </div>
           <div className={landingStyles.whiteBox}>
             <div className={landingStyles.title}>

@@ -1,24 +1,17 @@
 .imageContainer {
-  background-image: url("./swiss-alps-winterscape-snow-mountains-adelboden-switzerland-6143x3686-7206.jpg");
+  background-image: url("./pexels-abby-chung-371167-1191377.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-
 .container {
   display: flex;
   padding-block-start: 5rem;
-  padding-inline: 32rem;
-  padding-block-end: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    transparent,
-    #ffffff5a,
-    #ffffffc5,
-    #ffffff,
-    #ffffff
-  );
+
 }
 .container img {
   align-self: end;
@@ -70,9 +63,8 @@
   display: block;
   background: white;
   border-radius: 1rem;
-  margin: 1rem;
+  margin-block-end: 1rem;
   padding: 1rem;
-  width: 100%;
   max-width: 50rem;
   box-shadow: 5px 5px 20px rgb(180, 180, 180);
 }
@@ -130,6 +122,12 @@
   }
 }
 @media only screen and (max-width: 1500px) {
+  .about_me {
+    display: flex;
+    flex-direction: column;
+  }
+  .whiteBox {
+  }
   .container{
     padding-inline: 15rem;
   }
@@ -140,7 +138,7 @@
     flex-direction: column;
   }
   .whiteBox {
-    max-width: max-content;
+    width: 91vw;
   }
   .container{
     padding-inline: 1rem;
