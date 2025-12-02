@@ -12,7 +12,7 @@ export default function GlossaryPage() {
             <div className={landingStyles.greeting} style={{ opacity: "1" }}>
               <p>Lovely glossary!</p>
             </div>
-            <img src="./pixels.jpg" alt="" />
+            <img src="./avatar.png" alt="" />
           </div>
         </div>
         <div className={glossaryStyles.projects}>
