@@ -41,7 +41,7 @@
   width: fit-content;
   position: absolute;
   transition: all 0.3s ease-in;
-  transform: translateX(9rem);
+  transform: translateX(7rem);
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
