@@ -19,16 +19,16 @@ export default function Navbar() {
         break;
       case "/glossary":
         setSelectStyles({
-          background: "#e40066",
+          background: "#083853ff",
           transform: "translate(8.5rem)",
         });
         break;
-      // case "/blog":
-      //   setSelectStyles({
-      //   background: "#eac435",
-      //     transform: "translate(17rem)",
-      //   });
-      //   break;
+      case "/about_me":
+        setSelectStyles({
+          background: "#eac435",
+          transform: "translate(17rem)",
+        });
+        break;
     }
   }, [currentPath]);
   return (
