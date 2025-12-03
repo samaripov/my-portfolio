@@ -169,7 +169,7 @@ export default function LandingPage() {
           
         </div>
       </div>
-      <Footer color="hsl(153, 51%, 56%)" />
+      <Footer color="#1b7eef" />
     </div>
   );
 }

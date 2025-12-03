@@ -389,7 +389,7 @@ export default function GlossaryPage() {
           />
         </div>
       </div>
-      <Footer color="#e40066" />
+      <Footer color="#083853ff" />
     </div>
   );
 }
