@@ -6,7 +6,9 @@ export default function LandingPage() {
   return (
     <div className={landingStyles.imageContainer}>
       <div className={landingStyles.container}>
-        <div className={`${landingStyles.about_me} ${landingStyles.horizontalFlex}`}>
+        <div
+          className={`${landingStyles.about_me} ${landingStyles.horizontalFlex}`}
+        >
           <div className={landingStyles.avatar}>
             <div className={landingStyles.greeting}>
               <p>Hello there!</p>
@@ -41,25 +43,9 @@ export default function LandingPage() {
             projectLink={"https://aripov-fake-store.netlify.app/"}
           />
           <ProjectCard
-            name="Instagram Clone"
-            description="Project where I made a lot of mistakes when using turbo_frames. But I learned my lesson and took the new found knowledge to my new projects. Utilized AWS-Buckets for image storage."
-            techUsed={[
-              ["AWS", "#f59b42"],
-              ["Ruby on Rails", "#fc0f03"],
-              ["Action Storage", "#fc0324"],
-              ["Turbo Frames", "#59d833ff"],
-              ["CSS", "#ab06cc"],
-            ]}
-            imageSource={"./Instagram-Clone-Photos/Photo-4.png"}
-            imageAlt={"Picture of office and a like button selected."}
-            repoLink={"https://github.com/samaripov/RedditClone"}
-          />
-          <ProjectCard
             name="Responsive Homepage"
             description="Responsive portfolio mock-up. Changes the layout based on the screen size."
-            techUsed={[
-              ["CSS", "#ab06cc"],
-            ]}
+            techUsed={[["CSS", "#ab06cc"]]}
             repoLink={
               "https://github.com/samaripov/Project-Homepage?tab=readme-ov-file"
             }
@@ -80,10 +66,35 @@ export default function LandingPage() {
               ["Stimulus Controllers", "#ebdb34"],
               ["SASS", "#ab06cc"],
             ]}
-            imageSource={"./Telegram-Clone-Photos/telegram-clone-screenshot.png"}
-            imageAlt={"Picture of two chat windows from 2 different users, showcasing a simple discussion of an image."}
+            imageSource={
+              "./Telegram-Clone-Photos/telegram-clone-screenshot.png"
+            }
+            imageAlt={
+              "Picture of two chat windows from 2 different users, showcasing a simple discussion of an image."
+            }
             repoLink={"https://github.com/samaripov/telegram-clone"}
             projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
+          />
+          <ProjectCard
+            name="File Uploader"
+            description="A WebApp with the feel of an OS file manager. Will provide cloud storage for any image types. Planning to self-host the storage server on Ubuntu Linux for learning experience."
+            techUsed={[
+              ["React.js", "#1b7eef"],
+              ["React Routers", "#f5425a"],
+              ["Redux", "#1b7eae"],
+              ["JavaScript", "#ebdb34"],
+              ["Express JS", "#04d10e"],
+              ["Passport JS", "#66c7ff"],
+              ["PostgreSQL", "#1b7eae"],
+              ["PrismaORM", "#5b34eb"],
+              ["Google Auth", "#fc030b"],
+              ["JWT", "#5203fc"],
+            ]}
+            repoLink={"https://github.com/samaripov/Project-File-Uploader"}
+            imageSource={"./FileUploader-Photos/menuUI.png"}
+            imageAlt={
+              "An image of folders with Google Auth next the folders. made by Sam Aripov"
+            }
           />
           <ProjectCard
             name="Memory Game"
@@ -117,27 +128,7 @@ export default function LandingPage() {
             imageSource={"./MembersOnly-Photos/chat.png"}
             imageAlt={"Image of an message board made by Sam Aripov"}
           />
-          <ProjectCard
-            name="File Uploader"
-            description="A WebApp with the feel of an OS file manager. Will provide cloud storage for any image types. Planning to self-host the storage server on Ubuntu Linux for learning experience."
-            techUsed={[
-              ["React.js", "#1b7eef"],
-              ["React Routers", "#f5425a"],
-              ["Redux", "#1b7eae"],
-              ["JavaScript", "#ebdb34"],
-              ["Express JS", "#04d10e"],
-              ["Passport JS", "#66c7ff"],
-              ["PostgreSQL", "#1b7eae"],
-              ["PrismaORM", "#5b34eb"],
-              ["Google Auth", "#fc030b"],
-              ["JWT", "#5203fc"],
-            ]}
-            repoLink={"https://github.com/samaripov/Project-File-Uploader"}
-            imageSource={"./FileUploader-Photos/menuUI.png"}
-            imageAlt={
-              "An image of folders with Google Auth next the folders. made by Sam Aripov"
-            }
-          />
+
           <ProjectCard
             name="Battleship"
             description="Multiplayer battleship game made with Vanilla JavaScript. Utilizes drag and drop functionality of HTML."
@@ -166,7 +157,20 @@ export default function LandingPage() {
             imageAlt={"Image of a form for a CV application."}
             projectLink={"https://aripov-cv-app.netlify.app/"}
           />
-          
+          <ProjectCard
+            name="Instagram Clone"
+            description="Project where I made a lot of mistakes when using turbo_frames. But I learned my lesson and took the new found knowledge to my new projects. Utilized AWS-Buckets for image storage."
+            techUsed={[
+              ["AWS", "#f59b42"],
+              ["Ruby on Rails", "#fc0f03"],
+              ["Action Storage", "#fc0324"],
+              ["Turbo Frames", "#59d833ff"],
+              ["CSS", "#ab06cc"],
+            ]}
+            imageSource={"./Instagram-Clone-Photos/Photo-4.png"}
+            imageAlt={"Picture of office and a like button selected."}
+            repoLink={"https://github.com/samaripov/RedditClone"}
+          />
         </div>
       </div>
       <Footer color="#1b7eef" />

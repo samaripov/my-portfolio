@@ -17,42 +17,6 @@ export default function GlossaryPage() {
         </div>
         <div className={glossaryStyles.projects}>
           <ProjectCardHorizontal
-            name="Real Time Messenger"
-            repoLink={"https://github.com/samaripov/telegram-clone"}
-            projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
-            imageSource={"./Telegram-Clone-Photos/Photo-2.png"}
-            imageAlt={"Image of two chats having a basic discussion about an image of a pattern."}
-            glossary={[
-              ["Turbo::StreamsChannel.broadcast_prepend_to",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/chats_controller.rb#L34"
-              ],
-              [
-                "ApplicationController.render",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/messages_controller.rb#L12C25-L12C53"
-              ],
-              [
-                "respond_to do |format| ... end",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/messages_controller.rb#L40"
-              ], 
-              [
-                "ResizeObserver(this.scrollToTheBottom.bind(this))",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/javascript/controllers/scroll_down_when_new_message_controller.js#L6C5-L7C1"
-              ],
-              [
-                "fullImage.onload = () => { ... }",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/javascript/controllers/update_image_on_load_finish_controller.js#L18"
-              ],
-              [
-                "<%= turbo_stream_from ... %>",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/views/chats/show.html.erb#L5"
-              ],
-              [
-                "<%= turbo_frame_tag \"main\" do %> ... <% end %>",
-                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/views/chats/show.html.erb#L1C1-L1C33"
-              ],
-            ]}
-          />
-          <ProjectCardHorizontal
             name="Fake Store"
             direction="flip"
             repoLink={"https://github.com/Aripov-Sirojiddin/Project-Fake-Store"}
@@ -150,6 +114,45 @@ export default function GlossaryPage() {
             ]}
           />
           <ProjectCardHorizontal
+            name="Real Time Messenger"
+            repoLink={"https://github.com/samaripov/telegram-clone"}
+            projectLink={"https://www.youtube.com/watch?v=lKj7Ao0507k"}
+            imageSource={"./Telegram-Clone-Photos/Photo-2.png"}
+            imageAlt={
+              "Image of two chats having a basic discussion about an image of a pattern."
+            }
+            glossary={[
+              [
+                "Turbo::StreamsChannel.broadcast_prepend_to",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/chats_controller.rb#L34",
+              ],
+              [
+                "ApplicationController.render",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/messages_controller.rb#L12C25-L12C53",
+              ],
+              [
+                "respond_to do |format| ... end",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/controllers/messages_controller.rb#L40",
+              ],
+              [
+                "ResizeObserver(this.scrollToTheBottom.bind(this))",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/javascript/controllers/scroll_down_when_new_message_controller.js#L6C5-L7C1",
+              ],
+              [
+                "fullImage.onload = () => { ... }",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/javascript/controllers/update_image_on_load_finish_controller.js#L18",
+              ],
+              [
+                "<%= turbo_stream_from ... %>",
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/views/chats/show.html.erb#L5",
+              ],
+              [
+                '<%= turbo_frame_tag "main" do %> ... <% end %>',
+                "https://github.com/samaripov/telegram-clone/blob/1a9477afb310d720f6156c3fc0b09fcbafdc2754/app/views/chats/show.html.erb#L1C1-L1C33",
+              ],
+            ]}
+          />
+          <ProjectCardHorizontal
             name="File Uploader"
             direction="flip"
             repoLink={"https://github.com/samaripov/Project-File-Uploader"}
@@ -221,6 +224,39 @@ export default function GlossaryPage() {
             ]}
           />
           <ProjectCardHorizontal
+            name="Memory Game"
+            repoLink={
+              "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
+            }
+            imageSource={"./PokemonMemory-Photos/game.png"}
+            imageAlt={
+              "An image of a Pokémon card memory game! made by Sam Aripov"
+            }
+            projectLink={"https://ari-pokemon-memory.netlify.app/"}
+            glossary={[
+              [
+                "useState()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L6C41-L6C49",
+              ],
+              [
+                "fetch()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L19",
+              ],
+              [
+                "new Number()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L50C23-L50C29",
+              ],
+              [
+                "filter: brightness()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.css#L24C3-L24C22",
+              ],
+              [
+                "slice()",
+                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/helpers/capitalize.js#L1C62-L1C67",
+              ],
+            ]}
+          />
+          <ProjectCardHorizontal
             name="Members Only"
             direction="flip"
             repoLink={"https://github.com/Aripov-Sirojiddin/Members-Only-JS"}
@@ -262,39 +298,6 @@ export default function GlossaryPage() {
               [
                 '... .post("/...")',
                 "https://github.com/samaripov/Members-Only-JS/blob/63544f8010e70e6076eeae71c1b8d645a556e6ed/routers/initiationRouter.js#L6C17-L6C25",
-              ],
-            ]}
-          />
-          <ProjectCardHorizontal
-            name="Memory Game"
-            repoLink={
-              "https://github.com/samaripov/Project-Memory-Card?tab=readme-ov-file"
-            }
-            imageSource={"./PokemonMemory-Photos/game.png"}
-            imageAlt={
-              "An image of a Pokémon card memory game! made by Sam Aripov"
-            }
-            projectLink={"https://ari-pokemon-memory.netlify.app/"}
-            glossary={[
-              [
-                "useState()",
-                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L6C41-L6C49",
-              ],
-              [
-                "fetch()",
-                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L19",
-              ],
-              [
-                "new Number()",
-                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.jsx#L50C23-L50C29",
-              ],
-              [
-                "filter: brightness()",
-                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/components/PokemonCard/PokemonCard.css#L24C3-L24C22",
-              ],
-              [
-                "slice()",
-                "https://github.com/samaripov/Project-Memory-Card/blob/8734df480508c65bf8f697c121f169bbfcbb735a/src/helpers/capitalize.js#L1C62-L1C67",
               ],
             ]}
           />
