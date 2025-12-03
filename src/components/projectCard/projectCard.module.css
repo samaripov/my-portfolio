@@ -39,13 +39,14 @@
   transform: scale(102%);
 }
 
-.view {
+.container .view {
   transition: width 0.3s ease-in-out;
   width: 0rem;
 }
 
 .content:hover .view {
-  width: 7rem;
+  width: 6rem;
+  
 }
 
 .content {

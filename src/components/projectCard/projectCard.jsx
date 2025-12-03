@@ -41,8 +41,8 @@ export default function ProjectCard({
             </svg>
             <div className={cardStyles.title}>
               <div className={cardStyles.horizontalContainer}>
+                <h1 className={cardStyles.view}>View Repo</h1>
                 <h1>{name}</h1>
-                <h1 className={cardStyles.view}>- View Repo</h1>
               </div>
             </div>
           </div>
