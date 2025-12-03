@@ -119,7 +119,7 @@
 }
 
 .horizontalFlex h1 {
-  text-wrap: wrap;
+  white-space: normal;
 }
 
 .horizontalFlex svg {
@@ -184,7 +184,7 @@
   }
 
   .horizontalFlex h1 {
-    text-wrap: nowrap;
+    white-space: nowrap;
   }
 }
 

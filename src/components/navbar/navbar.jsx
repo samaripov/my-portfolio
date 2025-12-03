@@ -23,12 +23,12 @@ export default function Navbar() {
           transform: "translate(8.5rem)",
         });
         break;
-      case "/about_me":
-        setSelectStyles({
-          background: "#eac435",
-          transform: "translate(17rem)",
-        });
-        break;
+      // case "/about_me":
+      //   setSelectStyles({
+      //     background: "#2e8083ff",
+      //     transform: "translate(17rem)",
+      //   });
+      //   break;
     }
   }, [currentPath]);
   return (
@@ -52,12 +52,12 @@ export default function Navbar() {
         Glossary
       </Link>
       {/* <Link
-        className={`${currentPath === "/blog" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
+        className={`${currentPath === "/about_me" && `${navbarStyle.active} ${navbarStyle.animate_select}`} ${
           navbarStyle.button
         }`}
-        to="/blog"
+        to="/about_me"
       >
-        Blog
+        About Me
       </Link> */}
       <div
         id="select"
