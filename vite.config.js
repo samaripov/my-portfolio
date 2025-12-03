@@ -10,4 +10,8 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./tests/setup.js",
   },
+  build: {
+    outDir: "build",
+    assetsDir: "assets",
+  }
 });
